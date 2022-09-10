@@ -1,0 +1,46 @@
+﻿@page
+@model Hospitalizacion.App.Frontend.Pages.VerFamiliarModel
+@{
+}
+<style>
+   h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline ;
+    text-decoration-style: dashed double;
+    text-transform: uppercase;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 1.5 em;
+   }
+   .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
+   .list-group-item{color: black;text-transform: uppercase;font-family: 'Courier New', Courier, monospace;}
+   #etiqueta{font-weight: bold;}
+</style>
+<body class="logo">
+<h1>Informacion del Auxiliar</h1>
+
+<form method="POST">
+    <div class="card" style="width: 18rem;">
+  <img src="https://cdn-icons-png.flaticon.com/128/3021/3021797.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">
+        <label for="familiar">@Model.Familiar.Parentesco</label>
+    </h5>
+    <p class="card-text"></p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><span id="etiqueta">Email : </span>@Model.Familiar.Correo</li>
+  
+  </ul>
+  <div class="card-body">
+    
+  </div>
+</div><br>
+<form>
+     <INPUT TYPE="button" VALUE="Regresar"  class="btn btn-outline-success" onClick="history.go(-1);" style="margin-left:15% ; margin-rigth:15%;">
+     </form>
+     
+
+</form>
+</body>

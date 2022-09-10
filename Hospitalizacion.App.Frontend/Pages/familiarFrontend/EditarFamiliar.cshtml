@@ -1,0 +1,49 @@
+﻿@page
+@model Hospitalizacion.App.Frontend.Pages.EditarFamiliarModel
+@{
+}
+<style>
+   h1,legend {
+    color: blue;
+    text-align: center;
+    text-decoration: underline ;
+    text-decoration-style: dashed double;
+    text-transform: uppercase;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 1.5 em;
+  }
+  .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
+  
+</style>
+<body class="logo">
+  
+
+<h1>Editar Familiar</h1>
+<h3>@ViewData["Error"]</h3>
+
+<form method="POST">
+    <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+  
+    <legend>Informacion</legend>
+    <input type="hidden" asp-for="Familiar.Id">
+    <div class="mb-3">
+      <label asp-for="Familiar.Parentesco" class="form-label">Parentesco</label>
+      <input type="text" asp-for="Familiar.Parentesco" id="Parentesco" class="form-control" placeholder="Parentesco">
+      <span asp-validation-for="Familiar.Parentesco" class="text-danger"></span>
+    </div>
+     <div class="mb-3">
+      <label asp-for="Familiar.Correo" class="form-label">Correo</label>
+      <input type="text" asp-for="Familiar.Correo" id="Correo" class="form-control" placeholder="Correo">
+      <span asp-validation-for="Familiar.Correo" class="text-danger"></span>
+    </div>
+    
+    <div class="mb-3">
+   
+    <button type="submit" class="btn btn-outline-primary" style="margin-left: 10%; margin-rigth: 10%">Guardar</button><br>
+    <form><br>
+     <INPUT TYPE="button" VALUE="Regresar"  class="btn btn-outline-success" onClick="history.go(-1);" style="margin-left:10% ; margin-rigth:10%;">
+     </form>
+  
+</form>
+</body>

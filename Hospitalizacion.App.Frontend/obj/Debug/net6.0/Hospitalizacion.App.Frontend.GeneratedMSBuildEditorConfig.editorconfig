@@ -1,0 +1,144 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hospitalizacion.App.Frontend
+build_property.RootNamespace = Hospitalizacion.App.Frontend
+build_property.ProjectDir = C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Frontend\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Frontend
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/AuxiliarFrontend/AuxiliarAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJGcm9udGVuZFxBdXhpbGlhckFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/AuxiliarFrontend/CrearAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJGcm9udGVuZFxDcmVhckF1eGlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/AuxiliarFrontend/EditarAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJGcm9udGVuZFxFZGl0YXJBdXhpbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/AuxiliarFrontend/EliminarAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJGcm9udGVuZFxFbGltaW5hckF1eGlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/AuxiliarFrontend/VerAuxiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJGcm9udGVuZFxWZXJBdXhpbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/EnfermeroFrontend/CrearEnfermero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJvRnJvbnRlbmRcQ3JlYXJFbmZlcm1lcm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/EnfermeroFrontend/EditarEnfermero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJvRnJvbnRlbmRcRWRpdGFyRW5mZXJtZXJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/EnfermeroFrontend/EliminarEnfermero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJvRnJvbnRlbmRcRWxpbWluYXJFbmZlcm1lcm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/EnfermeroFrontend/EnfermeroAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJvRnJvbnRlbmRcRW5mZXJtZXJvQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/EnfermeroFrontend/VerEnfermero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJvRnJvbnRlbmRcVmVyRW5mZXJtZXJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/familiarFrontend/CrearFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmFtaWxpYXJGcm9udGVuZFxDcmVhckZhbWlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/familiarFrontend/EditarFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmFtaWxpYXJGcm9udGVuZFxFZGl0YXJGYW1pbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/familiarFrontend/ElminarFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmFtaWxpYXJGcm9udGVuZFxFbG1pbmFyRmFtaWxpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/familiarFrontend/FamiliarAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmFtaWxpYXJGcm9udGVuZFxGYW1pbGlhckFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/familiarFrontend/VerFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmFtaWxpYXJGcm9udGVuZFxWZXJGYW1pbGlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/MedicoFrontend/CrearMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvRnJvbnRlbmRcQ3JlYXJNZWRpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/MedicoFrontend/EditarMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvRnJvbnRlbmRcRWRpdGFyTWVkaWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/MedicoFrontend/EliminarMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvRnJvbnRlbmRcRWxpbWluYXJNZWRpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/MedicoFrontend/MedicoAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvRnJvbnRlbmRcTWVkaWNvQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/MedicoFrontend/VerMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvRnJvbnRlbmRcVmVyTWVkaWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/PacienteFrontend/CrearPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVGcm9udGVuZFxDcmVhclBhY2llbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/PacienteFrontend/EditarPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVGcm9udGVuZFxFZGl0YXJQYWNpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/PacienteFrontend/EliminarPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVGcm9udGVuZFxFbGltaW5hclBhY2llbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/PacienteFrontend/PacienteAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVGcm9udGVuZFxQYWNpZW50ZUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/PacienteFrontend/VerPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVGcm9udGVuZFxWZXJQYWNpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tedotl5vlk

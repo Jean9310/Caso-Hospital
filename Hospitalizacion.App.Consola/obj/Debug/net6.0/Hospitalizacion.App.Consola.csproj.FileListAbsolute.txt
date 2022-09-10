@@ -1,0 +1,372 @@
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.exe
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.deps.json
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.runtimeconfig.json
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.AssemblyReference.cache
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfoInputs.cache
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfo.cs
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CopyComplete
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\refint\Hospitalizacion.App.Consola.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.genruntimeconfig.cache
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\ref\Hospitalizacion.App.Consola.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\refint\Hospitalizacion.App.Consola.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.exe
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.deps.json
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.runtimeconfig.json
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfo.cs
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CopyComplete
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.genruntimeconfig.cache
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\ref\Hospitalizacion.App.Consola.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.exe
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.deps.json
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.runtimeconfig.json
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfo.cs
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CopyComplete
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\refint\Hospitalizacion.App.Consola.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.genruntimeconfig.cache
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\ref\Hospitalizacion.App.Consola.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.exe
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.deps.json
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.runtimeconfig.json
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfo.cs
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CopyComplete
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\refint\Hospitalizacion.App.Consola.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.genruntimeconfig.cache
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\ref\Hospitalizacion.App.Consola.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.AssemblyReference.cache
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfoInputs.cache
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfo.cs
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\refint\Hospitalizacion.App.Consola.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.exe
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.deps.json
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.runtimeconfig.json
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CopyComplete
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.genruntimeconfig.cache
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\ref\Hospitalizacion.App.Consola.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.exe
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.deps.json
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.runtimeconfig.json
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.AssemblyReference.cache
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfoInputs.cache
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.AssemblyInfo.cs
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.csproj.CopyComplete
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\refint\Hospitalizacion.App.Consola.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.pdb
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\Hospitalizacion.App.Consola.genruntimeconfig.cache
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Consola\obj\Debug\net6.0\ref\Hospitalizacion.App.Consola.dll

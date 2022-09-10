@@ -1,0 +1,95 @@
+﻿@page
+@model Hospitalizacion.App.Frontend.Pages.MedicoAdminModel
+@{
+    ViewData["Title"]="admin Medico";
+}
+<style>
+    h1{font-variant: small-caps;color: blue;text-align: center;text-decoration: dotted double; margin-left: 35%;margin-right: 35%;}
+    .fondo{background-image: url(https://thumbs.dreamstime.com/z/s%C3%ADmbolo-de-la-medicina-16699269.jpg);}
+</style>
+<body class="fondo">
+    
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <a class="navbar-brand" asp-area="" asp-page="/Index">Medico</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=""
+                            asp-page="../AuxiliarFrontend\AuxiliarAdmin">Auxiliar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=""
+                            asp-page="../FamiliarFrontend\FamiliarAdmin">Familiar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="../MedicoFrontend\MedicoAdmin">Medico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=""
+                            asp-page="../EnfermeroFrontend\EnfermeroAdmin">Enfermero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=""
+                            asp-page="../PacienteFrontend\PacienteAdmin">Paciente</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<h1> Administrador de Medico</h1>
+
+<div style="text-align: center;">
+    <button type="button" class="btn btn-outline-info" style="font-weight:bold ;"><a asp-page = "CrearMedico">Crear Medico</a></button>
+</div>
+<div>
+    <br>
+</div>
+<form method="post">
+    <table class="table">
+     <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Especialidad</th>
+            <th scope="col">Codigo</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Registro</th>
+            <th scope="col">TargetaProfesional</th>
+            <th scope="col" colspan="3">Opciones</th>
+        </tr>
+     </thead>
+    <tbody>
+         @foreach (var medico in Model.Med)
+            {
+                <tr>
+                    <th scope="row">@medico.Id</th>
+                    
+                    <td>@medico.Especialidad</td>
+                    <td>@medico.Codigo</td>
+                    <td>@medico.Nombre</td>
+                    <td>@medico.Apellido</td>
+                    <td>@medico.Telefono</td>
+                    <td>@medico.Genero</td>
+                    <td>@medico.Registro</td>
+                    <td>@medico.TargetaProfesional</td>
+                    
+                    <td><button type="button" class="btn btn-outline-danger"><a asp-page="./EliminarMedico" asp-route-id="@medico.Id"> Eliminar</a></button></td>
+                    <td><button type="button" class="btn btn-outline-warning"><a asp-page="./EditarMedico" asp-route-id="@medico.Id">Editar</a></button></td>
+                    <td><button type="button" class="btn btn-outline-primary"><a asp-page="./VerMedico" asp-route-id="@medico.Id">Informacion del Medico</a></button></td>
+                </tr>
+                
+            }
+    </tbody>
+    </table>
+</form>
+</body>

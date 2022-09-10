@@ -1,0 +1,83 @@
+﻿@page
+@model Hospitalizacion.App.Frontend.Pages.CrearFamiliarModel
+@{
+    ViewData["Title"]="Crear Familiar";
+}
+
+<style>
+   h1,legend {
+    color: blue;
+    text-align: center;
+    text-decoration: underline ;
+    text-decoration-style: dashed double;
+    text-transform: uppercase;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 1.5 em;
+  }
+  .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
+  #Parentesco,#Correo,#Nombre,#Apellido,#Telefono{border-color: blue;border: inset;text-transform: uppercase; color: black;}
+  input{border-color:black ;}
+</style>
+<body class="logo">
+  
+
+<h1>Crear Familiar</h1>
+<h3>@ViewData["Error"]</h3>
+<form method="POST">
+    
+    <h4>Informacion Especifica</h4>
+    
+      <div class="col">
+        <span asp-for="Familiar.Parentesco" class="input-group-text" id="Parentesco">Parentesco</span>
+        <input type="text" asp-for="Familiar.Parentesco" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" placeholder="Ingrese Su Parentesco">
+        <span asp-validation-for="Familiar.Parentesco" class="text-danger"></span>
+      </div>
+      <div>
+        <br>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="input-group-text" id="Correo">Correo</span>
+          <input type="email" asp-for="Familiar.Correo"class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default" placeholder="ejemplo@gmail.com">
+            <span asp-validation-for="Familiar.Correo" class="text-danger"></span>
+        </div>
+        
+    <legend>Informacion</legend>
+    <div class="input-group mb-3">
+      <span asp-for="Familiar.Nombre" class="input-group-text" id="Nombre">Nombre</span>
+      <input type="text" asp-for="Familiar.Nombre" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default" placeholder="Nombre de la persona">
+      <span asp-validation-for="Familiar.Nombre" class="text-danger"></span>
+
+      <span asp-for="Familiar.Apellido" class="input-group-text" id="Apellido">Apellido</span>
+      <input type="text" asp-for="Familiar.Apellido" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default" placeholder="Apellido">
+      <span asp-validation-for="Familiar.Apellido" class="text-danger"></span>
+
+      <span asp-for="FAmiliar.Telefono" class="input-group-text" id="Telefono">Telefono</span>
+      <input type="text" asp-for="Familiar.Telefono" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default" placeholder="Contacto">
+      <span asp-validation-for="Familiar.Telefono" class="text-danger"></span>
+      <select asp-for="Familiar.Genero" class="form-select" aria-label="Default select example">
+        <option selected>Genero</option>
+        <option value="Femenino">Femenino</option>
+        <option value="Masculino">Masculino</option>
+      </select>
+      <span asp-validation-for="Familiar.Genero" class="form-danger"></span>
+    </div>
+    
+    <div class="mb-3">
+   
+    
+    <div style="text-align: center;">
+      <button type="submit" class="btn btn-primary">Guardar</button>
+    </div><br>
+   <form>
+     <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success" style="margin-left:47% ;margin-rigth:50%;">
+     </form>
+     
+</form>
+</body>

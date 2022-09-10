@@ -1,0 +1,153 @@
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\Andres\Documents\MisionTIC\Ciclo3\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\user\Downloads\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\user\Downloads\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\user\Documents\Proyectos C#\Hospital\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\JHON\Descargas\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\JHON\Descargas\Biblioteca_Bd_G76\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\JHON\Documents\mitic\ciclo 3\semana 4\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\Andres\OneDrive\Documentos\MisionTIC\proyecto\sp2\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.deps.json
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.runtimeconfig.json
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.dll
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\bin\Debug\net6.0\Hospitalizacion.App.Dominio.pdb
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.csproj.CopyComplete
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\refint\Hospitalizacion.App.Persistencia.dll
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.pdb
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\Hospitalizacion.App.Persistencia.genruntimeconfig.cache
+C:\Users\user\Desktop\proyecto\Hospitalizacion.App\Hospitalizacion.App.Persistencia\obj\Debug\net6.0\ref\Hospitalizacion.App.Persistencia.dll
