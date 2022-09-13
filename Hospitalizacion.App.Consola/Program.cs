@@ -34,18 +34,19 @@ public class  Program
     }
        public static void AsignarFamiliarPacinte(){
 
-        Paciente paciente = _repositorioPaciente.GetPaciente(1);    
+        Paciente paciente = _repositorioPaciente.GetPaciente(66);    
         Console.WriteLine("paciente: "+ paciente.Nombre); 
-        paciente.ListaSignosVitales = _repositorioSignosVitales.GetSignosVitalesXPaciente(1).ToList();
+        paciente.ListaSignosVitales = _repositorioSignosVitales.GetSignosVitalesXPaciente(66).ToList();
 
         SignosVitales signosVitales = new SignosVitales();
-        signosVitales.Registro="xxxxxxxxxxxxxxxxxxxxxhjkjhgfdsdfghjkkjhgfdsdfghjk";
-        signosVitales.Oximetria="Oximetria";
-        signosVitales.FrecuenciaCardiaca = "frecuencia cardiaca";
-        signosVitales.FrecuenciaRespiratoria = " frecuencia";
-        signosVitales.Temperatura = "temp";
-        signosVitales.Glicemias = "gli";
-        signosVitales.PresionArteria = "pre";
+        signosVitales.Fecha=DateTime.Now;
+        signosVitales.Registro="adad";
+        signosVitales.Oximetria="Frecuencia";
+        signosVitales.FrecuenciaCardiaca = " cardiaca";
+        signosVitales.FrecuenciaRespiratoria = " frecuencia t";
+        signosVitales.Temperatura = "tempada";
+        signosVitales.Glicemias = "glicccc";
+        signosVitales.PresionArteria = "preadad";
 
         paciente.ListaSignosVitales.Add(signosVitales);   
         _repositorioPaciente.UpdatePaciente(paciente);

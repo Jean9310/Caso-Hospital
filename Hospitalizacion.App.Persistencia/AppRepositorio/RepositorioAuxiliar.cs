@@ -73,5 +73,22 @@ namespace Hospitalizacion.App.Persistencia
             }
             return auxiliarEncontrado;
         }
+    
+    
+    
+        public Auxiliar GetAuxiliarXP(int idAuxiliar) {
+              return  
+                this._appContext.Auxiliar
+                    .Where( a => a.Id == idAuxiliar)
+                    .SingleOrDefault<Auxiliar>();
+        }
+    
+    
+    
+    
+    
+    
+    
+    
     }
 }

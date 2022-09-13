@@ -15,5 +15,10 @@ namespace Hospitalizacion.App.Persistencia
         IEnumerable<Auxiliar> GetAllAuxiliar();
 
         Auxiliar UpdateAuxiliar(Auxiliar auxiliar);
+  
+  
+        Auxiliar GetAuxiliarXP(int id);
+  
+  
     }
 }

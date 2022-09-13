@@ -2,6 +2,7 @@ using System;
 
 using Hospitalizacion.App.Dominio;
 
+
 namespace Hospitalizacion.App.Persistencia
 {
     public interface IRepositorioPaciente
@@ -15,6 +16,12 @@ namespace Hospitalizacion.App.Persistencia
         IEnumerable<Paciente> GetAllPaciente();
 
         Paciente UpdatePaciente(Paciente paciente);
+
+
+
+        IEnumerable<Paciente> GetMedicoParaPaciente(int idMedico);
+        IEnumerable<Paciente> GetEnfermeroParaPaciente(int idEnfermero);
+        IEnumerable<Paciente> GetAuxiliarParaPaciente(int idAuxiliar);
 
         
     }

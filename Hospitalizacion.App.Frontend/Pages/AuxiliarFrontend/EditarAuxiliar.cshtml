@@ -3,45 +3,62 @@
 @{
 }
 <style>
-   h1,legend {
+  h1,
+  legend {
     color: blue;
     text-align: center;
-    text-decoration: underline ;
+    text-decoration: underline;
     text-decoration-style: dashed double;
     text-transform: uppercase;
     margin-left: 35%;
     margin-right: 35%;
     font-size: 1.5 em;
   }
-  #TipoAuxiliar,#Nombre,#Apellido,#Telefono,#Registro,#TargetaProfesional,#Genero{border: inset;border-color: blue;text-transform: uppercase;}
-  .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
-</style>
-<body class="logo">
-  
 
-<h1>Editar Auxiliar</h1>
-<h3>@ViewData["Error"]</h3>
-<form method="POST">
-    <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
-  
+  #TipoAuxiliar,
+  #Nombre,
+  #Apellido,
+  #Telefono,
+  #Registro,
+  #TargetaProfesional,
+  #Genero {
+    border: inset;
+    border-color: blue;
+    text-transform: uppercase;
+  }
+
+  .logo {
+    background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
+  }
+</style>
+
+<body class="logo">
+
+
+  <h1>Editar Auxiliar</h1>
+  <h3>@ViewData["Error"]</h3>
+  <form method="POST">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
     <legend>Informacion</legend>
     <input type="hidden" asp-for="Auxiliar.Id">
     <div class="mb-3">
       <label asp-for="Auxiliar.TipoAuxiliar" class="form-label">Tipo de Auxiliar</label>
-      <input type="text" asp-for="Auxiliar.TipoAuxiliar" id="TipoAuxiliar" class="form-control" placeholder="Tipo de Auxiliar">
+      <input type="text" asp-for="Auxiliar.TipoAuxiliar" id="TipoAuxiliar" class="form-control"
+        placeholder="Tipo de Auxiliar">
       <span asp-validation-for="Auxiliar.TipoAuxiliar" class="text-danger"></span>
     </div>
-     <div class="mb-3">
+    <div class="mb-3">
       <label asp-for="Auxiliar.Nombre" class="form-label">Nombre</label>
       <input type="text" asp-for="Auxiliar.Nombre" id="Nombre" class="form-control" placeholder="Nombre">
       <span asp-validation-for="Auxiliar.Nombre" class="text-danger"></span>
     </div>
-     <div class="mb-3">
+    <div class="mb-3">
       <label asp-for="Auxiliar.Apellido" class="form-label">Apellido</label>
       <input type="text" asp-for="Auxiliar.Apellido" id="Apellido" class="form-control" placeholder="Apellido">
       <span asp-validation-for="Auxiliar.Apellido" class="text-danger"></span>
     </div>
-     <div class="mb-3">
+    <div class="mb-3">
       <label asp-for="Auxiliar.Telefono" class="form-label">Telefono</label>
       <input type="text" asp-for="Auxiliar.Telefono" id="Telefono" class="form-control" placeholder="Telefono">
       <span asp-validation-for="Auxiliar.Telefono" class="text-danger"></span>
@@ -50,7 +67,7 @@
       <label asp-for="Auxiliar.Genero" class="form-label">Genero</label>
       <select asp-for="Auxiliar.Genero" id="Genero" class="form-select">
         <fieldset disabled>
-        <option>Seleccione</option>
+          <option>Seleccione</option>
         </fieldset>
         <option>Hombre</option>
         <option>Mujer</option>
@@ -65,15 +82,18 @@
     </div>
     <div class="mb-3">
       <label asp-for="Auxiliar.TargetaProfesional" class="form-label">Targeta Profesional</label>
-      <input type="text" asp-for="Auxiliar.TargetaProfesional" id="TargetaProfesional" class="form-control" placeholder="Targeta Profesional">
+      <input type="text" asp-for="Auxiliar.TargetaProfesional" id="TargetaProfesional" class="form-control"
+        placeholder="Targeta Profesional">
       <span asp-validation-for="Auxiliar.TargetaProfesional" class="text-danger"></span>
     </div>
     <div class="mb-3">
-   
-    <button type="submit" class="btn btn-outline-primary" style="margin-left: 10%; margin-rigth: 10%">Guardar</button><br>
-    <form><br>
-     <INPUT TYPE="button" VALUE="Regresar"  class="btn btn-outline-success" onClick="history.go(-1);" style="margin-left:10% ; margin-rigth:10%;">
-     </form>
-  
-</form>
+
+      <button type="submit" class="btn btn-outline-primary"
+        style="margin-left: 10%; margin-rigth: 10%">Guardar</button><br>
+      <form><br>
+        <INPUT TYPE="button" VALUE="Regresar" class="btn btn-outline-success" onClick="history.go(-1);"
+          style="margin-left:10% ; margin-rigth:10%;">
+      </form>
+
+  </form>
 </body>

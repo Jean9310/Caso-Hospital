@@ -1,20 +1,29 @@
 ﻿@page
 @model Hospitalizacion.App.Frontend.Pages.CrearAuxiliarModel
 @{
+
   ViewData["Title"] = "crear Auxiliar";
 }
 <style>
-  h1,legend {
+  h1,
+  legend {
     color: blue;
     text-align: center;
-    text-decoration: underline ;
+    text-decoration: underline;
     text-decoration-style: dashed double;
     text-transform: uppercase;
     margin-left: 35%;
     margin-right: 35%;
     font-size: 1.5 em;
   }
-  h4{color: blue;text-transform: uppercase;text-align: center;margin-left: 35%;margin-right: 35%;}
+
+  h4 {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
 
   #Nombre,
   #Apellido,
@@ -30,71 +39,76 @@
   input {
     border-color: outset double;
   }
-  .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
+
+  .logo {
+    background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
+  }
 </style>
+
 <body class="logo">
-  
-
-<h1>Crear Auxiliar</h1>
-<h3>@ViewData["Error"]</h3>
-<form method="POST">
-  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-  <legend>Informacion</legend>
-  <div class="input-group mb-3">
-    <span asp-for="Auxiliar.Nombre" class="input-group-text" id="Nombre">Nombre</span>
-    <input type="text" asp-for="Auxiliar.Nombre" class="form-control" aria-label="Sizing example input"
-      aria-describedby="inputGroup-sizing-default" placeholder="Nombre del Auxiliar">
-    <span asp-validation-for="Auxiliar.Nombre" class="text-danger"></span>
-    <span asp-for="Auxiliar.Apellido" class="input-group-text" id="Apellido">Apellido</span>
-    <input type="text" asp-for="Auxiliar.Apellido" class="form-control" aria-label="Sizing example input"
-      aria-describedby="inputGroup-sizing-default" placeholder="Apellido del Auxiliar">
-    <span asp-validation-for="Auxiliar.Apellido" class="text-danger"></span>
-    <span asp-for="Auxiliar.Telefono" class="input-group-text" id="Telefono">Telefono</span>
-    <input type="text" asp-for="Auxiliar.Telefono" class="form-control" aria-label="Sizing example input"
-      aria-describedby="inputGroup-sizing-default" placeholder="111111">
-    <span asp-validation-for="Auxiliar.Telefono" class="text-danger"></span>
-    <select asp-for="Auxiliar.Genero" class="form-select" aria-label="Default select example" style="text-transform: uppercase;border: outset; border-color:blue;">
-      <option selected>Genero</option>
-      <option value="1">Femenino</option>
-      <option value="2">Masculino</option>
-    </select>
-    <span asp-validation-for="Auxiliar.Genero" class="form-danger"></span>
 
 
-  </div><br><br>
-  <h4>Informacion Especifica</h4>
-  <div class="row">
-    <div class="col">
-      <span asp-for="Auxiliar.TipoAuxiliar" class="input-group-text" id="TipoAuxiliar">Tipo Auxiliar</span>
-      <input type="text" asp-for="Auxiliar.TipoAuxiliar" class="form-control" aria-label="Sizing example input"
-        aria-describedby="inputGroup-sizing-default" placeholder="Tipo de Auxiliar">
-      <span asp-validation-for="Auxiliar.TipoAuxiliar" class="text-danger" ></span>
+  <h1>Crear Auxiliar</h1>
+  <h3>@ViewData["Error"]</h3>
+  <form method="POST">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <legend>Informacion</legend>
+    <div class="input-group mb-3">
+      <span asp-for="Auxiliar.Nombre" class="input-group-text" id="Nombre">Nombre</span>
+      <input type="text" asp-for="Auxiliar.Nombre" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default" placeholder="Nombre del Auxiliar">
+      <span asp-validation-for="Auxiliar.Nombre" class="text-danger"></span>
+      <span asp-for="Auxiliar.Apellido" class="input-group-text" id="Apellido">Apellido</span>
+      <input type="text" asp-for="Auxiliar.Apellido" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default" placeholder="Apellido del Auxiliar">
+      <span asp-validation-for="Auxiliar.Apellido" class="text-danger"></span>
+      <span asp-for="Auxiliar.Telefono" class="input-group-text" id="Telefono">Telefono</span>
+      <input type="text" asp-for="Auxiliar.Telefono" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default" placeholder="111111">
+      <span asp-validation-for="Auxiliar.Telefono" class="text-danger"></span>
+      <select asp-for="Auxiliar.Genero" class="form-select" aria-label="Default select example"
+        style="text-transform: uppercase;border: outset; border-color:blue;">
+        <option selected>Genero</option>
+        <option value="1">Femenino</option>
+        <option value="2">Masculino</option>
+      </select>
+      <span asp-validation-for="Auxiliar.Genero" class="form-danger"></span>
+
+
+    </div><br><br>
+    <h4>Informacion Especifica</h4>
+    <div class="row">
+      <div class="col">
+        <span asp-for="Auxiliar.TipoAuxiliar" class="input-group-text" id="TipoAuxiliar">Tipo Auxiliar</span>
+        <input type="text" asp-for="Auxiliar.TipoAuxiliar" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" placeholder="Tipo de Auxiliar">
+        <span asp-validation-for="Auxiliar.TipoAuxiliar" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="Auxiliar.Registro" class="input-group-text" id="Nombre">Numero de registro</span>
+        <input type="text" asp-for="Auxiliar.Registro" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" placeholder="###">
+        <span asp-validation-for="Auxiliar.Registro" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="Auxiliar.TargetaProfesional" class="input-group-text" id="Nombre">N. Targeta Profesional</span>
+        <input type="text" asp-for="Auxiliar.TargetaProfesional" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" placeholder="Numero de Targeta Profesional">
+        <span asp-validation-for="Auxiliar.TargetaProfesional" class="text-danger"></span>
+      </div>
     </div>
-    <div class="col">
-      <span asp-for="Auxiliar.Registro" class="input-group-text" id="Nombre">Numero de registro</span>
-      <input type="text" asp-for="Auxiliar.Registro" class="form-control" aria-label="Sizing example input"
-        aria-describedby="inputGroup-sizing-default" placeholder="###">
-      <span asp-validation-for="Auxiliar.Registro" class="text-danger"></span>
-    </div>
-    <div class="col">
-      <span asp-for="Auxiliar.TargetaProfesional" class="input-group-text" id="Nombre">N. Targeta Profesional</span>
-      <input type="text" asp-for="Auxiliar.TargetaProfesional" class="form-control" aria-label="Sizing example input"
-        aria-describedby="inputGroup-sizing-default" placeholder="Numero de Targeta Profesional">
-      <span asp-validation-for="Auxiliar.TargetaProfesional" class="text-danger"></span>
-    </div>
-  </div>
-  <div class="mb-3">
-    <div>
-      <br>
-    </div>
+    <div class="mb-3">
+      <div>
+        <br>
+      </div>
 
-    <div style="text-align: center;">
-      <button type="submit" class="btn btn-primary">Guardar</button>
-    </div><br>
-    <form>
-      <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success"
-        style="margin-left:47% ;margin-rigth:50%;">
-    </form>
-</form>
+      <div style="text-align: center;">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </div><br>
+      <form>
+        <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success"
+          style="margin-left:47% ;margin-rigth:50%;">
+      </form>
+  </form>
 </body>

@@ -15,5 +15,7 @@ namespace Hospitalizacion.App.Persistencia
         IEnumerable<Enfermero> GetAllEnfermero();
 
         Enfermero UpdateEnfermero(Enfermero enfermero);
+
+        Enfermero GetEnfermeroXP(int id);
     }
 }

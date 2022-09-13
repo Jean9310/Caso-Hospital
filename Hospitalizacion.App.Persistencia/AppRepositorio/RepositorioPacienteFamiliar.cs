@@ -6,7 +6,7 @@ namespace Hospitalizacion.App.Persistencia
 {
     public class RepositorioPacienteFamiliar : IRepositorioPacienteFamiliar
     {
-       /*
+       
         private readonly AppContext _appContext;
 
         public RepositorioPacienteFamiliar(AppContext appContext)
@@ -21,12 +21,37 @@ namespace Hospitalizacion.App.Persistencia
             return asignarPacienteFamiliar.Entity;
         }
 
-        public IEnumerable<PacienteFamiliar>obtenerFamiliarXPaciente(int IdPaciente)
+        public bool DeletePacienteFamiliar(int idFamiliar, int idPaciente)
         {
-            return this._appContext.PacienteFamiliar.Where (f => f.PacienteId ==IdPaciente);
+            var eliminarPacienteFamiliar =
+                this._appContext.PacienteFamiliar
+                    .FirstOrDefault(pf => pf.FamiliarId == idFamiliar && pf.PacienteId == idPaciente );
+
+            if (eliminarPacienteFamiliar != null)
+            {
+                try
+                {
+                    this._appContext.PacienteFamiliar.Remove(eliminarPacienteFamiliar);
+                    this._appContext.SaveChanges();
+                    return true;
+                }
+                catch (System.Exception)
+                {
+                    return false;
+                }
+                
+            }
+            return false;
         }
-*/
-       
+
+        public PacienteFamiliar GetPacienteFamiliar(int idFamiliar, int idPaciente)
+        {
+            return
+                this._appContext.PacienteFamiliar
+                .Where(pf => pf.FamiliarId == idFamiliar && pf.PacienteId == idPaciente )
+                .SingleOrDefault<PacienteFamiliar>();
+
+        }
     }
     
 }

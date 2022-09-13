@@ -2025,19 +2025,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\JHON\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Downloads\\Hospitalizacion.App\\Hospitalizacion.App.Persistencia\\Hospitalizacion.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Persistencia\\Hospitalizacion.App.Persistencia.csproj",
       "projectName": "Hospitalizacion.App.Persistencia",
-      "projectPath": "C:\\Users\\user\\Downloads\\Hospitalizacion.App\\Hospitalizacion.App.Persistencia\\Hospitalizacion.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Downloads\\Hospitalizacion.App\\Hospitalizacion.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Persistencia\\Hospitalizacion.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\JHON\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\JHON\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2049,8 +2049,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Downloads\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\user\\Downloads\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj"
+            "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj"
             }
           }
         }

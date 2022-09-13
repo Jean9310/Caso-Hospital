@@ -7,7 +7,7 @@
     h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 
     sans-serif;text-align: center;margin-left: 35%;margin-right: 35%;}
     div{color: blue;font-variant: small-caps;}
-    .fondo{background-image: url(https://thumbs.dreamstime.com/z/s%C3%ADmbolo-de-la-medicina-16699269.jpg);}
+    .fondo{background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);}
   
 </style>
 <body class="fondo">
@@ -42,6 +42,7 @@
                         <a class="nav-link text-dark" asp-area=""
                             asp-page="../PacienteFrontend\PacienteAdmin">Paciente</a>
                     </li>
+                    
                 </ul>
             </div>
         </div>
@@ -60,14 +61,12 @@
      <table class="table">
         <thead>
             <tr>
-                <th scope="col">Id</th>
+                @* <th scope="col" hidden>Id</th> *@
                 <th scope="col">TipoAuxiliar</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
                 <th scope="col">Telefono</th>
-                <th scope="col">Genero</th>
-                <th scope="col">Registro</th>
-                <th scope="col">TargetaProfesional</th>
+               
                 <th scope="col" colspan="3">Opciones</th>
             </tr>
         </thead>
@@ -75,15 +74,13 @@
             @foreach (var auxiliar in Model.Aux)
             {
                 <tr>
-                    <th scope="row">@auxiliar.Id</th>
+                    <th scope="row" hidden>@auxiliar.Id</th>
                     
                     <td>@auxiliar.TipoAuxiliar</td>
                     <td>@auxiliar.Nombre</td>
                     <td>@auxiliar.Apellido</td>
                     <td>@auxiliar.Telefono</td>
-                    <td>@auxiliar.Genero</td>
-                    <td>@auxiliar.Registro</td>
-                    <td>@auxiliar.TargetaProfesional</td>
+                   
                     
                     <td><button type="button" class="btn btn-outline-danger" style="font-weight:bold ;"><a asp-page="./EliminarAuxiliar" asp-route-id="@auxiliar.Id"> Eliminar</a></button></td>
                     <td><button type="button" class="btn btn-outline-warning"><a asp-page="./EditarAuxiliar" asp-route-id="@auxiliar.Id" style="font-weight:bold ;">Editar</a></button></td>

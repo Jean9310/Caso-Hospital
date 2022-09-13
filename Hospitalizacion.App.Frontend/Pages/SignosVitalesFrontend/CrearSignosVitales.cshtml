@@ -1,0 +1,123 @@
+﻿@page
+@model Hospitalizacion.App.Frontend.Pages.CrearSignosVitalesModel
+@{
+    ViewData["Title"] = "crear Signos Vitales";
+}
+
+<style>
+  h1,
+  legend {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed double;
+    text-transform: uppercase;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 1.5 em;
+  }
+
+  .logo {
+    background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
+  }
+
+  #Nombre,
+  #Apellido,
+  #Telefono,
+  #Ciudad,
+  #Direccion,
+  #Latitud,
+  #Longitud,
+  #Fecha,
+  #Medico,
+  #Enfermero,
+  #Auxiliar {
+    border-color: blue;
+    border: inset;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  input {
+    border-color: black;
+  }
+</style>
+
+<body class="logo">
+
+  <h1>Crear Signos Vitales</h1>
+  <h3>@ViewData["Error"]</h3>
+
+  <form method="POST">
+    
+    <h4>Informacion Especifica</h4>
+    <div class="row">
+      <div class="col">
+        <span asp-for="SignosVitales.Registro" class="input-group-text" id="Direccion">Registro</span>
+        <input type="text" asp-for="SignosVitales.Registro" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="SignosVitales.Registro" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="SignosVitales.FrecuenciaCardiaca" class="input-group-text" id="Ciudad">Frecuencia Cardiaca</span>
+        <input type="text" asp-for="SignosVitales.FrecuenciaCardiaca" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="SignosVitales.FrecuenciaCardiaca" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="SignosVitales.FrecuenciaRespiratoria" class="input-group-text" id="Ciudad">Frecuencia Respiratoria</span>
+        <input type="text" asp-for="SignosVitales.FrecuenciaRespiratoria" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="SignosVitales.FrecuenciaRespiratoria" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="SignosVitales.Glicemias" class="input-group-text" id="Ciudad">Glicemias</span>
+        <input type="text" asp-for="SignosVitales.Glicemias" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="SignosVitales.Glicemias" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="SignosVitales.Oximetria" class="input-group-text" id="Ciudad">Oximetria</span>
+        <input type="text" asp-for="SignosVitales.Oximetria" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="SignosVitales.Oximetria" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="SignosVitales.PresionArteria" class="input-group-text" id="Ciudad">Presion Arteria</span>
+        <input type="text" asp-for="SignosVitales.PresionArteria" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="SignosVitales.PresionArteria" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="SignosVitales.Temperatura" class="input-group-text" id="Ciudad">Temperatura</span>
+        <input type="text" asp-for="SignosVitales.Temperatura" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="SignosVitales.Temperatura" class="text-danger"></span>
+      </div>
+
+      <div class="col">
+        <span asp-for="SignosVitales.PacienteId" class="input-group-text" id="PacienteId">Id del paciente</span>
+        <input  type="number" value="@Model.Paciente.Id" asp-for="SignosVitales.PacienteId" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="SignosVitales.PacienteId" class="text-danger"></span>
+      </div>
+      
+          
+
+       <div class="col">
+          <span class="input-group-text" id="Fecha">Fecha</span>
+          <input type="date" asp-for="SignosVitales.Fecha" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+          <span asp-validation-for="SignosVitales.Fecha" class="text-danger"></span>
+        </div>
+
+        <h4>primero oprime guardar y despues Retornar</h4>
+        <div style="text-align: center;">
+          <button type="submit" class="btn btn-primary">Guardar</button>
+        </div><br>
+        <form>
+          <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success"
+            style="margin-left:47% ;margin-rigth:50%;">
+        </form>
+  </form>
+</body>
