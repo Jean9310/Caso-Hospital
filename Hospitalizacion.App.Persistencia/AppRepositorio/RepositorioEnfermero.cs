@@ -74,5 +74,14 @@ namespace Hospitalizacion.App.Persistencia
             }
             return  EnfermeroEncontrado;
         }
+
+
+
+           public Enfermero GetEnfermeroXP(int idEnfermero) {
+              return  
+                this._appContext.Enfermero
+                    .Where( e => e.Id == idEnfermero)
+                    .SingleOrDefault<Enfermero>();
+        }
     }
 }

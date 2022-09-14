@@ -3,45 +3,115 @@
 @{
 }
 <style>
-   h1{
+  h1 {
     color: blue;
     text-align: center;
-    text-decoration: underline ;
+    text-decoration: underline;
     text-decoration-style: dashed double;
     text-transform: uppercase;
     margin-left: 35%;
     margin-right: 35%;
     font-size: 1.5 em;
-   }
-   .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
-   .list-group-item{color: black;text-transform: uppercase;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-   #etiqueta{font-weight: bold;}
+  }
+
+  .logo {
+    background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
+  }
+
+  .list-group-item {
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #etiqueta {
+    font-weight: bold;
+  }
+
+  .table {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: dashed 3px;
+  }
 </style>
+
 <body class="logo">
-  
-
-<h1>Informacion del Auxiliar</h1>
 
 
+  <h1>Informacion del Auxiliar</h1>
 
-<form method="POST">
+
+
+  <form method="POST">
     <div class="card" style="width: 18rem;">
-  <img src="https://cdn-icons-png.flaticon.com/128/3567/3567474.png" class="card-img-top" alt="">
-  <div class="card-body">
-    <h5 class="card-title">
-        <label for="auxiliar">@Model.Auxiliar.Nombre @Model.Auxiliar.Apellido</label>
-    </h5>
-    <p class="card-text">Una pasión por poner a los pacientes primero: eso siempre es algo que buscas en un centro de salud.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item"><span id="etiqueta">Tipo de Auxiliar : </span>@Model.Auxiliar.TipoAuxiliar</li>
-    <li class="list-group-item"><span id="etiqueta">Contacto : </span>@Model.Auxiliar.Telefono</li>
-    <li class="list-group-item"><span id="etiqueta">Genero : </span>@Model.Auxiliar.Genero</li>
-  </ul>
-  </div>
-</div><br>
-<form>
-     <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success" style="margin-left:15% ;margin-rigth:15%;">
-     </form>
-</form>
+      <img src="https://cdn-icons-png.flaticon.com/128/3567/3567474.png" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">
+          <label for="auxiliar">@Model.Auxiliar.Nombre @Model.Auxiliar.Apellido</label>
+        </h5>
+        <p class="card-text">Una pasión por poner a los pacientes primero: eso siempre es algo que buscas en un centro
+          de salud.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><span id="etiqueta">Tipo de Auxiliar : </span>@Model.Auxiliar.TipoAuxiliar</li>
+        <li class="list-group-item"><span id="etiqueta">Contacto : </span>@Model.Auxiliar.Telefono</li>
+        <li class="list-group-item"><span id="etiqueta">Genero : </span>@Model.Auxiliar.Genero</li>
+        <li class="list-group-item"><span id="etiqueta">Targeta Profesional : </span>@Model.Auxiliar.TargetaProfesional</li>
+        <li class="list-group-item"><span id="etiqueta">Registro : </span>@Model.Auxiliar.Registro</li>
+      </ul>
+    </div>
+    </div><br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col" hidden>Id</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Apellido</th>
+          <th scope="col">Telefono</th>
+          @* <th scope="col">Genero</th>
+            <th scope="col">Direccion</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Fecha Nacimiento</th>
+            <th scope="col">Latitud</th>
+            <th scope="col">Longitud</th>
+            <th scope="col">Auxiliar</th>
+            <th scope="col">Enfermero</th>
+            <th scope="col">Medico</th> *@
+          <th scope="col" colspan="1">Opciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach (var paciente in Model.Pac)
+        {
+          <tr>
+            <th scope="row" hidden>@paciente.Id</th>
+
+
+            <td>@paciente.Nombre</td>
+            <td>@paciente.Apellido</td>
+            <td>@paciente.Telefono</td>
+            @* <td>@paciente.Genero</td>
+              <td>@paciente.Direccion</td>
+              <td>@paciente.Ciudad</td>
+              <td>@paciente.FechaNacimiento</td>
+              <td>@paciente.Latitud</td>
+              <td>@paciente.Longitud</td>
+              <td>@paciente.AuxiliarId</td>
+              <td>@paciente.EnfermeroId</td>
+              <td>@paciente.MedicoId</td> *@
+
+            <td><button type="button" class="btn btn-outline-primary"><a asp-page="../PacienteFrontend/VerPaciente" asp-route-id="@paciente.Id" style="font-weight:bold ;">Carnet Representativo</a></button></td>
+
+          </tr>
+
+        }
+      </tbody>
+    </table>
+
+    <form>
+      <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success"
+        style="margin-left:15% ;margin-rigth:15%;">
+    </form>
+  </form>
 </body>

@@ -17,5 +17,9 @@ namespace Hospitalizacion.App.Persistencia
         Medico UpdateMedico(Medico medico);
 
         
+
+        IEnumerable<Paciente> GetOacienteParaMedico(int idMedico);
+
+        Medico GetMedicoXP(int id);
     }
 }

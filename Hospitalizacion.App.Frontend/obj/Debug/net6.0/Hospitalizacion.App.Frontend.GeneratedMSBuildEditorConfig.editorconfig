@@ -127,8 +127,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/RelacionesFrontend/AsignarPersonal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVsYWNpb25lc0Zyb250ZW5kXEFzaWduYXJQZXJzb25hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/SignosVitalesFrontend/CrearSignosVitales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbm9zVml0YWxlc0Zyb250ZW5kXENyZWFyU2lnbm9zVml0YWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/SignosVitalesFrontend/SignosVitalesAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbm9zVml0YWxlc0Zyb250ZW5kXFNpZ25vc1ZpdGFsZXNBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Downloads/Hospitalizacion.App/Hospitalizacion.App.Frontend/Pages/_ViewImports.cshtml]

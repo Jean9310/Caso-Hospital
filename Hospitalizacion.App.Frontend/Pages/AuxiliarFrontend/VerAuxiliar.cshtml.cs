@@ -11,6 +11,12 @@ namespace Hospitalizacion.App.Frontend.Pages
     public class VerAuxiliarModel : PageModel
     {
 
+        private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new Hospitalizacion.App.Persistencia.AppContext());
+        [BindProperty]
+        
+
+        public IEnumerable<Paciente> Pac{get; set;}
+
 
         private static IRepositorioAuxiliar _repositorioAuxiliar = new RepositorioAuxiliar(new Hospitalizacion.App.Persistencia.AppContext());
 
@@ -20,6 +26,8 @@ namespace Hospitalizacion.App.Frontend.Pages
         public VerAuxiliarModel(){}
         public ActionResult OnGet(int id)
         {
+           
+            this.Pac=_repositorioPaciente.GetAuxiliarParaPaciente(id);
             this.Auxiliar=_repositorioAuxiliar.GetAuxiliar(id);
             return Page();
         }

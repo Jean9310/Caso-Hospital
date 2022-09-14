@@ -74,5 +74,24 @@ namespace Hospitalizacion.App.Persistencia
             }
             return MedicoEncontrado;
         }
+
+
+        public Medico GetMedicoXP(int idMedico) {
+              return  
+                this._appContext.Medico
+                    .Where( m => m.Id == idMedico)
+                    .SingleOrDefault<Medico>();
+        }
+
+
+
+     public IEnumerable<Paciente> GetOacienteParaMedico(int idMedico)
+        {
+            return this._appContext.Paciente.Where(p => p.MedicoId ==idMedico);
+        }
+
+
+
+
     }
 }

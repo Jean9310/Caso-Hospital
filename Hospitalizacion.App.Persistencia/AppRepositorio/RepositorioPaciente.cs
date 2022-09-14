@@ -87,9 +87,26 @@ namespace Hospitalizacion.App.Persistencia
 
 
 
-       
+        public IEnumerable<Paciente> GetMedicoParaPaciente(int idMedico)
+        {
+            return this._appContext.Paciente.Where(p => p.MedicoId ==idMedico);
+        }
+
+         public IEnumerable<Paciente> GetEnfermeroParaPaciente(int idEnfermero)
+        {
+            return this._appContext.Paciente.Where(p => p.EnfermeroId ==idEnfermero);
+        }
+
+         public IEnumerable<Paciente> GetAuxiliarParaPaciente(int idAuxiliar)
+        {
+            return this._appContext.Paciente.Where(p => p.AuxiliarId ==idAuxiliar);
+        }
      
 
+
+
+         
+        
     
 
 

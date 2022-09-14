@@ -162,6 +162,9 @@ namespace Hospitalizacion.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("SignosVitalesId")
                         .HasColumnType("int");
 
@@ -310,6 +313,9 @@ namespace Hospitalizacion.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("FrecuenciaCardiaca")
                         .IsRequired()

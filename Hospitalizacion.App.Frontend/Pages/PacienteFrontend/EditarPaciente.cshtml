@@ -104,25 +104,43 @@
     
     <div class="mb-3">
 
-      <div class="col">
+     <div class="col">
           <span class="input-group-text" id="Medico">Medico</span>
-          <input  type="number" value="3" asp-for="Paciente.MedicoId" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default" min="0" max="90">
-            <span asp-validation-for="Paciente.MedicoId" class="text-danger"></span>
-      </div>
-      <div class="col">
+           <select asp-for="Medico.Id" class="form-select" aria-label="Default select example">
+            <option selected>@Model.Medico.Nombre</option>
+
+            @foreach (var medico in Model.Medicos)
+          {
+            <option value="@medico.Id">@medico.Nombre  @medico.Apellido</option>
+            
+          } 
+                   
+          </select>
+          <span asp-validation-for="Medico.Id" class="form-danger"></span>
+        </div>
+        <div class="col">
           <span class="input-group-text" id="Enfermero">Enfermero</span>
-          <input type="number" value="4" asp-for="Paciente.EnfermeroId" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default" min="0" max="90">
-            <span asp-validation-for="Paciente.EnfermeroId" class="text-danger"></span>
-      </div>
-   
-       <div class="col">
+            <select asp-for="Enfermero.Id" class="form-select" aria-label="Default select example">
+            <option selected>@Model.Enfermero.Nombre</option>
+           @foreach (var enfermero in Model.Enfermeros)
+          {
+            <option value="@enfermero.Id">@enfermero.Nombre  @enfermero.Apellido</option>
+          }                   
+          </select>
+          <span asp-validation-for="Enfermero.Id" class="form-danger"></span>
+        </div>
+
+        <div class="col">
           <span class="input-group-text" id="Auxiliar">Auxiliar</span>
-          <input  type="number" value="6" asp-for="Paciente.AuxiliarId" class="form-control" aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default" min="0" max="90">
-            <span asp-validation-for="Paciente.AuxiliarId" class="text-danger"></span>
-      </div>
+             <select asp-for="Auxiliar.Id" class="form-select" aria-label="Default select example">
+            <option selected>@Model.Auxiliar.Nombre</option>
+           @foreach (var auxiliar in Model.Auxiliares)
+          {
+            <option value="@auxiliar.Id">@auxiliar.Nombre  @auxiliar.Apellido</option>
+          }                   
+          </select>
+          <span asp-validation-for="Auxiliar.Id" class="form-danger"></span>
+        </div>
     
     <div style="text-align: center;">
       <button type="submit" class="btn btn-primary">Guardar</button>
