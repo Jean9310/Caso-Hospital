@@ -4,7 +4,7 @@
 
 namespace Hospitalizacion.App.Persistencia.Migrations
 {
-    public partial class FechaAgregada : Migration
+    public partial class Actualizacion : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -3,67 +3,52 @@
 @{
 }
 <style>
-  h1 {
+   h1{
     color: blue;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline ;
     text-decoration-style: dashed double;
     text-transform: uppercase;
     margin-left: 35%;
     margin-right: 35%;
     font-size: 1.5 em;
-  }
-
-  #Especialidad,
-  #Codigo,
-  #Nombre,
-  #Apellido,
-  #Telefono,
-  #Registro,
-  #TargetaProfesional,
-  #Genero {
-    border: inset;
-    border-color: blue;
-    text-transform: uppercase;
-  }
-
-  .logo {
-    background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
-  }
+   }
+   #Especialidad,#Codigo,#Nombre,#Apellido,#Telefono,#Registro,#TargetaProfesional,#Genero{border: inset;border-color: blue;text-transform: uppercase;}
+   .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
+   
 </style>
 
 <body class="logo">
+  
 
-
-  <h1>Editar Datos del Medico</h1>
-  <h3>@ViewData["Error"]</h3>
-  <form method="POST">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
+<h1>Editar Datos del Medico</h1>
+<h3>@ViewData["Error"]</h3>
+<form method="POST">
+    <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+  
     <legend>Informacion</legend>
     <input type="hidden" asp-for="Medico.Id">
     <div class="mb-3">
       <label asp-for="Medico.Especialidad" class="form-label">Especialidad</label>
-      <input type="text" asp-for="Medico.Especialidad" id="Especialidad" class="form-control"
-        placeholder="Especialidad">
+      <input type="text" asp-for="Medico.Especialidad" id="Especialidad" class="form-control" placeholder="Especialidad">
       <span asp-validation-for="Medico.Especialidad" class="text-danger"></span>
     </div>
-    <div class="mb-3">
+     <div class="mb-3">
       <label asp-for="Medico.Codigo" class="form-label">Codigo</label>
       <input type="text" asp-for="Medico.Codigo" id="Codigo" class="form-control" placeholder="Codigo">
       <span asp-validation-for="Medico.Codigo" class="text-danger"></span>
     </div>
-    <div class="mb-3">
+     <div class="mb-3">
       <label asp-for="Medico.Nombre" class="form-label">Nombre</label>
       <input type="text" asp-for="Medico.Nombre" id="Nombre" class="form-control" placeholder="Nombre">
       <span asp-validation-for="Medico.Nombre" class="text-danger"></span>
     </div>
-    <div class="mb-3">
+     <div class="mb-3">
       <label asp-for="Medico.Apellido" class="form-label">Apellido</label>
       <input type="text" asp-for="Medico.Apellido" id="Apellido" class="form-control" placeholder="Apellido">
       <span asp-validation-for="Medico.Apellido" class="text-danger"></span>
     </div>
-    <div class="mb-3">
+     <div class="mb-3">
       <label asp-for="Medico.Telefono" class="form-label">Telefono</label>
       <input type="text" asp-for="Medico.Telefono" id="Telefono" class="form-control" placeholder="Telefono">
       <span asp-validation-for="Medico.Telefono" class="text-danger"></span>
@@ -71,9 +56,9 @@
     <div class="mb-3">
       <label asp-for="Medico.Genero" class="form-label">Genero</label>
       <select asp-for="Medico.Genero" id="Genero" class="form-select" placeholder="Seleccione">
-
+        
         <option>Seleccione</option>
-
+        
         <option>Hombre</option>
         <option>Mujer</option>
         <option>Otro</option>
@@ -87,18 +72,15 @@
     </div>
     <div class="mb-3">
       <label asp-for="Medico.TargetaProfesional" class="form-label">Targeta Profesional</label>
-      <input type="text" asp-for="Medico.TargetaProfesional" id="TargetaProfesional" class="form-control"
-        placeholder="Targeta Profesional">
+      <input type="text" asp-for="Medico.TargetaProfesional" id="TargetaProfesional" class="form-control" placeholder="Targeta Profesional">
       <span asp-validation-for="Medico.TargetaProfesional" class="text-danger"></span>
     </div>
     <div class="mb-3">
-
-      <button type="submit" class="btn btn-outline-primary"
-        style="margin-left: 10%; margin-rigth: 10%">Guardar</button><br>
-      <form><br>
-        <INPUT TYPE="button" VALUE="Regresar" class="btn btn-outline-success" onClick="history.go(-1);"
-          style="margin-left:10% ; margin-rigth:10%;">
-      </form>
-
-  </form>
+   
+    <button type="submit" class="btn btn-outline-primary" style="margin-left: 10%; margin-rigth: 10%">Guardar</button><br>
+    <form><br>
+     <INPUT TYPE="button" VALUE="Regresar"  class="btn btn-outline-success" onClick="history.go(-1);" style="margin-left:10% ; margin-rigth:10%;">
+     </form>
+  
+</form>
 </body>

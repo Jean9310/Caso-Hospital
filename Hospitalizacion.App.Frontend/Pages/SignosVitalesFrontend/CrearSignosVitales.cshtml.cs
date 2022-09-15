@@ -11,45 +11,18 @@ namespace Hospitalizacion.App.Frontend.Pages
         [BindProperty]
         public Paciente Paciente{get; set;}
         
-        
-        private static IRepositorioSignosVitales _repositorioSignosVitales = new RepositorioSignosVitales(new Hospitalizacion.App.Persistencia.AppContext());
+         private static IRepositorioSignosVitales _repositorioSignosVitales = new RepositorioSignosVitales(new Hospitalizacion.App.Persistencia.AppContext());
         [BindProperty]
-        
-        public SignosVitales SignosVitales{get; set;}
+         public SignosVitales SignosVitales{get; set;}
 
-        public CrearSignosVitalesModel(){}
-
-
-
-
+         public CrearSignosVitalesModel(){}
         public ActionResult OnGet(int id)
         {
-            this.Paciente= _repositorioPaciente.GetPaciente(id);
             //this.Paciente= _repositorioPaciente.GetPaciente(id);
            // SignosVitales.PacienteId = 2042;
            
-             return Page();
-           
-            
-        }
-
-          public ActionResult OnPost()
-        {
-            
-            try{
-
-
-            //Auxiliar.Fecha = System.DateTime.Now;
-               SignosVitales Signos = _repositorioSignosVitales.AddSignosVitales(SignosVitales);
-                //  return RedirectToPage("./PacienteAdmin");
-                //  ("./SignosVitalesAdmin");
-                return Page();
-                
-            }catch(System.Exception e)
-            {
-                ViewData["Error"] = "Error"+ e.Message;
-                return Page();
-            }
+            SignosVitales Signos = _repositorioSignosVitales.AddSignosVitales(SignosVitales);
+            return RedirectToPage("./VerPaciente");
             
         }
 

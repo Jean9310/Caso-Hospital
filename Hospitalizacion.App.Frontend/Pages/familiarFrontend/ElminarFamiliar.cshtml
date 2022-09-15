@@ -7,16 +7,16 @@
 <h1>Eliminar Familiar</h1>
 <h3>@ViewData["Error"]</h3>
 <form method="POST">
-  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-  <legend>Informacion</legend>
-  <div class="mb-3">
-    <label asp-for="Familiar.Id" class="form-label">Parentesco</label>
-    <input type="text" asp-for="Familiar.Id" id="Eliminar" class="form-control" placeholder="Parentesco">
-    <span asp-validation-for="Familiar.Id" class="text-danger"></span>
-
+    <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+  
+    <legend>Informacion</legend>
     <div class="mb-3">
-
-      <button type="submit" class="btn btn-primary">Guardar</button>
-
+      <label asp-for="Familiar.Id" class="form-label">Parentesco</label>
+      <input type="text" asp-for="Familiar.Id" id="Eliminar" class="form-control" placeholder="Parentesco">
+      <span asp-validation-for="Familiar.Id" class="text-danger"></span>
+  
+    <div class="mb-3">
+   
+    <button type="submit" class="btn btn-primary">Guardar</button>
+  
 </form>

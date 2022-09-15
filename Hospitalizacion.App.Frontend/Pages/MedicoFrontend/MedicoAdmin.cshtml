@@ -5,7 +5,7 @@
 }
 <style>
     h1{font-variant: small-caps;color: blue;text-align: center;text-decoration: dotted double; margin-left: 35%;margin-right: 35%;}
-    .fondo{background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);}
+    .fondo{background-image: url(https://thumbs.dreamstime.com/z/s%C3%ADmbolo-de-la-medicina-16699269.jpg);}
 </style>
 <body class="fondo">
     
@@ -56,15 +56,15 @@
     <table class="table">
      <thead>
         <tr>
-            @* <th scope="col" hidden>Id</th>
+            <th scope="col">Id</th>
             <th scope="col">Especialidad</th>
-            <th scope="col">Codigo</th> *@
+            <th scope="col">Codigo</th>
             <th scope="col">Nombre</th>
             <th scope="col">Apellido</th>
             <th scope="col">Telefono</th>
-            @* <th scope="col">Genero</th>
+            <th scope="col">Genero</th>
             <th scope="col">Registro</th>
-            <th scope="col">TargetaProfesional</th> *@
+            <th scope="col">TargetaProfesional</th>
             <th scope="col" colspan="3">Opciones</th>
         </tr>
      </thead>
@@ -72,16 +72,16 @@
          @foreach (var medico in Model.Med)
             {
                 <tr>
-                    <th scope="row" hidden>@medico.Id</th>
-@*                     
+                    <th scope="row">@medico.Id</th>
+                    
                     <td>@medico.Especialidad</td>
-                    <td>@medico.Codigo</td> *@
+                    <td>@medico.Codigo</td>
                     <td>@medico.Nombre</td>
                     <td>@medico.Apellido</td>
                     <td>@medico.Telefono</td>
-                    @* <td>@medico.Genero</td>
+                    <td>@medico.Genero</td>
                     <td>@medico.Registro</td>
-                    <td>@medico.TargetaProfesional</td> *@
+                    <td>@medico.TargetaProfesional</td>
                     
                     <td><button type="button" class="btn btn-outline-danger"><a asp-page="./EliminarMedico" asp-route-id="@medico.Id"> Eliminar</a></button></td>
                     <td><button type="button" class="btn btn-outline-warning"><a asp-page="./EditarMedico" asp-route-id="@medico.Id">Editar</a></button></td>

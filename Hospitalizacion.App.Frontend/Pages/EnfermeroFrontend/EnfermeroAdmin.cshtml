@@ -1,108 +1,89 @@
 ﻿@page
 @model Hospitalizacion.App.Frontend.Pages.EnfermeroAdminModel
 @{
-
-    ViewData["Title"] = "admin Enfermero";
+    ViewData["Title"]="admin Enfermero";
 }
 <style>
-    h1 {
-        font-variant: small-caps;
-        color: blue;
-        text-align: center;
-        text-decoration: dotted double;
-        margin-left: 35%;
-        margin-right: 35%;
-    }
-
-    .fondo {
-        background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);
-    }
+    h1{font-variant: small-caps;color: blue;text-align: center;text-decoration: dotted double; margin-left: 35%;margin-right: 35%;}
+    .fondo{background-image: url(https://thumbs.dreamstime.com/z/s%C3%ADmbolo-de-la-medicina-16699269.jpg);}
 </style>
-
 <body class="fondo">
+    
 
-
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Enfermero</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area=""
-                                asp-page="../AuxiliarFrontend\AuxiliarAdmin">Auxiliar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area=""
-                                asp-page="../FamiliarFrontend\FamiliarAdmin">Familiar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area=""
-                                asp-page="../MedicoFrontend\MedicoAdmin">Medico</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area=""
-                                asp-page="../EnfermeroFrontend\EnfermeroAdmin">Enfermero</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area=""
-                                asp-page="../PacienteFrontend\PacienteAdmin">Paciente</a>
-                        </li>
-                    </ul>
-                </div>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <a class="navbar-brand" asp-area="" asp-page="/Index">Enfermero</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=""
+                            asp-page="../AuxiliarFrontend\AuxiliarAdmin">Auxiliar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=""
+                            asp-page="../FamiliarFrontend\FamiliarAdmin">Familiar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="../MedicoFrontend\MedicoAdmin">Medico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=""
+                            asp-page="../EnfermeroFrontend\EnfermeroAdmin">Enfermero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=""
+                            asp-page="../PacienteFrontend\PacienteAdmin">Paciente</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <h1> Administrador de Enfermero</h1>
-    <div style="text-align: center;">
-        <button type="button" class="btn btn-outline-info"><a asp-page="CrearEnfermero"
-                style="font-weight:bold  ; ">Crear personal nuevo</a></button>
-    </div>
-    <form method="post">
-        <table class="table table-blue table-striped">
-            <thead>
-
-                <th scope="col" hidden>Id</th>
-                <th scope="col">Documento</th>
-                <th scope="col">Nombre</th>
-                <th scope="col">Apellido</th>
-                <th scope="col">Telefono</th>
-                @* <th scope="col">Genero</th>
-                <th scope="col">Registro</th>
-                <th scope="col">TargetaProfesional</th> *@
-                <th scope="col" colspan="3">Opciones</th>
-            </thead>
-            <tbody>
-                @foreach (var enfermero in Model.Enf)
-
-                {
-                    <tr>
-                        <th scope="row" hidden>@enfermero.Id</th>
-
-                        <td>@enfermero.Documento</td>
-                        <td>@enfermero.Nombre</td>
-                        <td>@enfermero.Apellido</td>
-                        <td>@enfermero.Telefono</td>
-                        @* <td>@enfermero.Genero</td>
-                        <td>@enfermero.Registro</td>
-                        <td>@enfermero.TargetaProfesional</td> *@
-
-                        <td><a asp-page="./EliminarEnfermero" asp-route-id="@enfermero.Id" class="btn btn-outline-danger">
-                                Eliminar</a></td>
-                        <td><a asp-page="./EditarEnfermero" asp-route-id="@enfermero.Id"
-                            class="btn btn-outline-warning">Editar</a></td>
-                        <td><a asp-page="./VerEnfermero" asp-route-id="@enfermero.Id" class="btn btn-outline-primary">Carnet
-                                Representativo</a></td>
-                    </tr>
-
-
-                }
-
-            </tbody>
-        </table>
-    </form>
+        </div>
+    </nav>
+</header>
+<h1> Administrador de Enfermero</h1>
+<div style="text-align: center;">
+    <button type="button" class="btn btn-outline-info"><a asp-page = "CrearEnfermero" style="font-weight:bold  ; ">Crear personal nuevo</a></button>
+</div>
+<form method="post">
+    <table class="table table-blue table-striped">
+        <thead>
+            
+            <th scope="col">Id</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Registro</th>
+            <th scope="col">TargetaProfesional</th>
+            <th scope="col" colspan="3">Opciones</th>
+        </thead>   
+        <tbody>
+              @foreach (var enfermero in Model.Enf)
+            {
+                <tr>
+                    <th scope="row">@enfermero.Id</th>
+                    
+                    <td>@enfermero.Documento</td>
+                    <td>@enfermero.Nombre</td>
+                    <td>@enfermero.Apellido</td>
+                    <td>@enfermero.Telefono</td>
+                    <td>@enfermero.Genero</td>
+                    <td>@enfermero.Registro</td>
+                    <td>@enfermero.TargetaProfesional</td>
+                    
+                    <td><a asp-page="./EliminarEnfermero" asp-route-id="@enfermero.Id" class="btn btn-outline-danger"> Eliminar</a></td>
+                    <td><a asp-page="./EditarEnfermero" asp-route-id="@enfermero.Id" class="btn btn-outline-warning">Editar</a></td>
+                    <td><a asp-page="./VerEnfermero" asp-route-id="@enfermero.Id" class="btn btn-outline-primary">Carnet Representativo</a></td>
+                </tr>
+                
+            }
+         
+        </tbody>     
+    </table>
+</form>
 </body>

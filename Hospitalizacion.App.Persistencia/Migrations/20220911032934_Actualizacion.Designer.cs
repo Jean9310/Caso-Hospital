@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hospitalizacion.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220911011058_FechaAgregada")]
-    partial class FechaAgregada
+    [Migration("20220911032934_Actualizacion")]
+    partial class Actualizacion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

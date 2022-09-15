@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj": {}
+    "C:\\Users\\Andres\\OneDrive\\Documentos\\MisionTIC\\hoy\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj": {
+    "C:\\Users\\Andres\\OneDrive\\Documentos\\MisionTIC\\hoy\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Andres\\OneDrive\\Documentos\\MisionTIC\\hoy\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
         "projectName": "Hospitalizacion.App.Dominio",
-        "projectPath": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\JHON\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Andres\\OneDrive\\Documentos\\MisionTIC\\hoy\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andres\\OneDrive\\Documentos\\MisionTIC\\hoy\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JHON\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

@@ -3,156 +3,132 @@
 @{
 }
 <style>
-  h1 {
+   h1{
     color: blue;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline ;
     text-decoration-style: dashed double;
     text-transform: uppercase;
     margin-left: 35%;
     margin-right: 35%;
     font-size: 1.5 em;
-  }
-  h3,h4{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: blue;text-decoration: underline;}
-  .card1{float: left;
-      position: absolute;
-      top: 220px;
-      right: 150px;
-      width: 300px;
-      height: 300px;
-    }
-
-    .card2{float: left;
-      position: absolute;
-      top: 950px;
-      right: 150px;
-      width: 300px;
-      height: 300px;
-    }
-    .table{font-weight: bold;color: black;font-family: Arial, Helvetica, sans-serif; border: dashed 3px;}
-
-
-  .logo {
-    background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
-  }
-
-  .list-group-item {
-    color: black;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  #etiqueta {
-    font-weight: bold;
-  }
+   }
+   .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
+   .list-group-item{color: black;text-transform: uppercase;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+   #etiqueta{font-weight: bold;}
 </style>
-
 <body class="logo">
-  <h1>Informacion del Paciente</h1>
+<h1>Informacion del Paciente</h1>
+
+
 <form method="POST">
     <div class="card" style="width: 18rem;">
-      <img src="https://cdn-icons-png.flaticon.com/128/57/57117.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">
-          <label for="auxiliar">@Model.Paciente.Nombre @Model.Paciente.Apellido</label>
-        </h5>
-        <p class="card-text"></p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"><span id="etiqueta">Fecha de Nacimiento :</span>@Model.Paciente.FechaNacimiento</li>
-        <li class="list-group-item"><span id="etiqueta">Genero :</span>@Model.Paciente.Genero</li>
-        <li class="list-group-item"><span id="etiqueta">Contacto :</span>@Model.Paciente.Telefono</li>
-        <li class="list-group-item"><span id="etiqueta">Direccion : </span>@Model.Paciente.Direccion</li>
-        <li class="list-group-item"><span id="etiqueta">Ciudad Natal : </span>@Model.Paciente.Ciudad</li>
-        <li class="list-group-item"><span id="etiqueta">Longitud :</span>@Model.Paciente.Longitud</li>
-        <li class="list-group-item"><span id="etiqueta">Latitud :</span>@Model.Paciente.Latitud</li>
-      </ul>
-    </div>
-    <h3 class="card1">Medico</h3>
-      <div class="card1" style="width: 18rem;">
-        <img src="https://cdn-icons-png.flaticon.com/128/1021/1021799.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">
-            <label>@Model.Medico.Nombre @Model.Medico.Apellido</label>
-          </h5>
-          <li class="list-group-item"><span id="etiqueta">Especialidad :</span>@Model.Medico.Especialidad</li>
-          <li class="list-group-item"><span id="etiqueta">Contacto :</span>@Model.Medico.Telefono</li>
-        </div>
-      </div><br>
-  <h3>Enfermero</h3>
-        <div class="card" style="width: 18rem;">
-          <img src="https://cdn.icon-icons.com/icons2/944/PNG/128/medical-29_icon-icons.com_73943.png"
-            class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">
-              <label for="enfermero">@Model.Enfermero.Nombre @Model.Enfermero.Apellido</label>
-            </h5>
-            <li class="list-group-item"><span id="etiqueta">Contacto :</span>@Model.Enfermero.Telefono</li>
-          </div>
-        </div>
-  <h4 class="card2">Auxiliar</h3><br>
-          <div class="card2" style="width: 18rem;">
-            <img src="https://cdn-icons-png.flaticon.com/128/3567/3567474.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">
-                <label for="auxiliar">@Model.Auxiliar.Nombre @Model.Auxiliar.Apellido</label>
-              </h5>
-              <li class="list-group-item"><span id="etiqueta">Contacto :</span>@Model.Auxiliar.Telefono</li>
-            </div>
-          </div><br>
+  <img src="https://cdn-icons-png.flaticon.com/128/57/57117.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">
+        <label for="auxiliar">@Model.Paciente.Nombre @Model.Paciente.Apellido</label>
+    </h5>
+    <p class="card-text"></p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><span id="etiqueta">Fecha de Nacimiento :</span>@Model.Paciente.FechaNacimiento</li>
+    <li class="list-group-item"><span id="etiqueta">Genero :</span>@Model.Paciente.Genero</li>
+    <li class="list-group-item"><span id="etiqueta">Contacto :</span>@Model.Paciente.Telefono</li>
+    <li class="list-group-item"><span id="etiqueta">Direccion : </span>@Model.Paciente.Direccion</li>
+    <li class="list-group-item"><span id="etiqueta">Ciudad Natal : </span>@Model.Paciente.Ciudad</li>
+    <li class="list-group-item"><span id="etiqueta">Longitud :</span>@Model.Paciente.Longitud</li>
+    <li class="list-group-item"><span id="etiqueta">Latitud :</span>@Model.Paciente.Latitud</li>
+  </ul>
 
-            
-            <button type="button" class="btn btn-outline-info" style="font-weight:bold ;"><a
-                asp-page="../SignosVitalesFrontend/CrearSignosVitales" asp-route-id="@Model.Paciente.Id">Asignacion de signos vitales del Paciente</a></button><br> 
-            <br><table class="table">
-              <thead>
+
+<h3>Medico</h3>
+  <div class="card" style="width: 18rem;">
+  <img src="https://cdn-icons-png.flaticon.com/128/1021/1021799.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">
+        <label>@Model.Medico.Nombre @Model.Medico.Apellido</label>
+    </h5>
+    <li class="list-group-item"><span id="etiqueta">Especialidad :</span>@Model.Medico.Especialidad</li>
+    <li class="list-group-item"><span id="etiqueta">Contacto :</span>@Model.Medico.Telefono</li>
+  </div>
+
+
+<h3>Enfermero</h3>
+ <div class="card" style="width: 18rem;">
+  <img src="https://cdn.icon-icons.com/icons2/944/PNG/128/medical-29_icon-icons.com_73943.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">
+        <label for="enfermero">@Model.Enfermero.Nombre @Model.Enfermero.Apellido</label>
+    </h5>
+     <li class="list-group-item"><span id="etiqueta">Contacto :</span>@Model.Enfermero.Telefono</li>
+  </div>
+
+
+<h3>Auxiliar</h3>
+  <div class="card" style="width: 18rem;">
+  <img src="https://cdn-icons-png.flaticon.com/128/3567/3567474.png" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">
+        <label for="auxiliar">@Model.Auxiliar.Nombre @Model.Auxiliar.Apellido</label>
+    </h5>
+   <li class="list-group-item"><span id="etiqueta">Contacto :</span>@Model.Auxiliar.Telefono</li>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+ <button type="button" class="btn btn-outline-info" style="font-weight:bold ;"><a asp-page = "../SignosVitalesFrontend/CrearSignosVitales">Nuevo signos</a></button>
+<table class="table" >
+        <thead >
+            <tr>
+                @* <th scope="col">Id</th> *@
+                <th scope="col">registro</th>
+                <th scope="col">Frecuencia cardiaca</th>
+                <th scope="col">Frecuencia Respiratoria</th>
+                <th scope="col">Glicemias</th>
+                 <th scope="col">Oximetria</th>
+                <th scope="col">PresionArteria</th>
+                <th scope="col">Temperatura</th>
+                <th scope="col">Fecha</th>
+                                
+                @* <th scope="col" colspan="3">Opciones</th> *@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var signosV in Model.sig)
+            {
                 <tr>
-                      @* <th scope="col">Id</th> *@
-                  <th scope="col">registro</th>
-                  <th scope="col">Frecuencia cardiaca</th>
-                  <th scope="col">Frecuencia Respiratoria</th>
-                  <th scope="col">Glicemias</th>
-                  <th scope="col">Oximetria</th>
-                  <th scope="col">PresionArteria</th>
-                  <th scope="col">Temperatura</th>
-                  <th scope="col" rowspan="3">Fecha</th>
-
-                      @* <th scope="col" colspan="3">Opciones</th> *@
-                </tr>
-              </thead>
-              <tbody>
-                    @foreach (var signosV in Model.sig)
-
-                    {
-                  <tr>
                     <th scope="row">@signosV.Id</th>
 
-                    @* <td>@signosV.PacienteId</td> *@
+                    <td>@signosV.PacienteId</td>
                     <td>@signosV.Registro</td>
                     <td>@signosV.FrecuenciaCardiaca</td>
                     <td>@signosV.FrecuenciaRespiratoria</td>
                     <td>@signosV.Glicemias</td>
                     <td>@signosV.Oximetria</td>
                     <td>@signosV.PresionArteria</td>
-                    <td>@signosV.Temperatura</td>
-                    <td>@signosV.Fecha</td> 
+                    <td>@signosV.Temperatura</td> 
+                    <td>@signosV.Fecha</td>
+                                                     
+
+                    @* <td><a asp-page="./CrearSignosVitales" asp-route-id="@Paciente.Id" class="btn btn-outline-primary">nuevos signos</a></td>  *@
+                    @* <td><a asp-page="./AsignarPersonal" asp-route-id="@paciente.Id" class="btn btn-outline-primary">Asignar Personal</a></td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
 
 
-                        @* <td><a asp-page="./CrearSignosVitales" asp-route-id="@Paciente.Id" class="btn
-                          btn-outline-primary">nuevos signos</a></td> *@
-                        @* <td><a asp-page="./AsignarPersonal" asp-route-id="@paciente.Id" class="btn
-                          btn-outline-primary">Asignar Personal</a></td> *@
-                  </tr>
 
-                    }
-              </tbody>
-            </table>
+  </div><br>
 
-          </div><br>
-  </form>
 
+</form>
 </body>
-<form>
-          <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success"
-            style="margin-left:50% ;margin-rigth:50%;">
-        </form>

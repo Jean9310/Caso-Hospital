@@ -45,7 +45,7 @@
 
 <body class="logo">
 
-  <h1>Crear Signos Vitales</h1>
+  <h1>Crear Signos Vitales"</h1>
   <h3>@ViewData["Error"]</h3>
 
   <form method="POST">
@@ -96,8 +96,8 @@
       </div>
 
       <div class="col">
-        <span asp-for="SignosVitales.PacienteId" class="input-group-text" id="PacienteId">Id del paciente</span>
-        <input  type="number" value="@Model.Paciente.Id" asp-for="SignosVitales.PacienteId" class="form-control" aria-label="Sizing example input"
+        <span asp-for="SignosVitales.PacienteId" class="input-group-text" id="Ciudad">Persona</span>
+        <input type="number"  asp-for="SignosVitales.PacienteId" class="form-control" aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.PacienteId" class="text-danger"></span>
       </div>
@@ -111,7 +111,6 @@
           <span asp-validation-for="SignosVitales.Fecha" class="text-danger"></span>
         </div>
 
-        <h4>primero oprime guardar y despues Retornar</h4>
         <div style="text-align: center;">
           <button type="submit" class="btn btn-primary">Guardar</button>
         </div><br>

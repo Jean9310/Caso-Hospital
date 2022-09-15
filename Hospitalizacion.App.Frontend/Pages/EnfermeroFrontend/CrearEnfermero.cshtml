@@ -1,67 +1,49 @@
 ﻿@page
 @model Hospitalizacion.App.Frontend.Pages.CrearEnfermeroModel
 @{
-
-  ViewData["Title"] = "crear Enfermero";
+    ViewData["Title"]="crear Enfermero";
 }
 <style>
-  h1,
-  legend {
+   h1,legend {
     color: blue;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline ;
     text-decoration-style: dashed double;
     text-transform: uppercase;
     margin-left: 35%;
     margin-right: 35%;
     font-size: 1.5 em;
   }
-
-  .logo {
-    background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
-  }
-
+  .logo{background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);}
   #Nombre,
   #Apellido,
   #Telefono,
-  #TipoAuxiliar,
-  #Codigo,
-  #TargetaProfesional,
-  #Registro {
-    border-color: blue;
-    border: inset;
-    text-transform: uppercase;
-    color: black;
-  }
-
-  input {
-    border-color: black;
-  }
+  #TipoAuxiliar,#Codigo,#TargetaProfesional,#Registro{border-color: blue;border: inset;text-transform: uppercase; color: black;}
+  input{border-color:black ;}
 </style>
-
 <body class="logo">
-  <h1>Crear Enfermero</h1>
-  <h3>@ViewData["Error"]</h3>
-  <form method="POST">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
+<h1>Crear Enfermero</h1>
+<h3>@ViewData["Error"]</h3>
+<form method="POST">
+    <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+  
     <legend>Informacion</legend>
     <div class="mb-3">
       <label asp-for="Enfermero.Documento" class="form-label">Documento</label>
       <input type="text" asp-for="Enfermero.Documento" id="TipoAuxiliar" class="form-control" placeholder="Documento">
       <span asp-validation-for="Enfermero.Documento" class="text-danger"></span>
     </div>
-    <div class="mb-3">
+     <div class="mb-3">
       <label asp-for="Enfermero.Nombre" class="form-label">Nombre</label>
       <input type="text" asp-for="Enfermero.Nombre" id="Nombre" class="form-control" placeholder="Nombre">
       <span asp-validation-for="Enfermero.Nombre" class="text-danger"></span>
     </div>
-    <div class="mb-3">
+     <div class="mb-3">
       <label asp-for="Enfermero.Apellido" class="form-label">Apellido</label>
       <input type="text" asp-for="Enfermero.Apellido" id="Apellido" class="form-control" placeholder="Apellido">
       <span asp-validation-for="Enfermero.Apellido" class="text-danger"></span>
     </div>
-    <div class="mb-3">
+     <div class="mb-3">
       <label asp-for="Enfermero.Telefono" class="form-label">Telefono</label>
       <input type="text" asp-for="Enfermero.Telefono" id="Telefono" class="form-control" placeholder="Telefono">
       <span asp-validation-for="Enfermero.Telefono" class="text-danger"></span>
@@ -69,9 +51,9 @@
     <div class="mb-3">
       <label asp-for="Enfermero.Genero" class="form-label">Genero</label>
       <select asp-for="Enfermero.Genero" id="Genero" class="form-select" placeholder="Seleccione">
-
+        
         <option>Seleccione</option>
-
+        
         <option>Hombre</option>
         <option>Mujer</option>
         <option>Otro</option>
@@ -85,16 +67,14 @@
     </div>
     <div class="mb-3">
       <label asp-for="Enfermero.TargetaProfesional" class="form-label">Targeta Profesional</label>
-      <input type="text" asp-for="Enfermero.TargetaProfesional" id="TargetaProfesional" class="form-control"
-        placeholder="Targeta Profesional">
+      <input type="text" asp-for="Enfermero.TargetaProfesional" id="TargetaProfesional" class="form-control" placeholder="Targeta Profesional">
       <span asp-validation-for="Enfermero.TargetaProfesional" class="text-danger"></span>
     </div>
     <div class="mb-3">
-
-      <button type="submit" class="btn btn-primary">Guardar</button>
-      <form>
-        <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success"
-          style="margin-left:5% ;margin-rigth:5%;">
-      </form>
-  </form>
+   
+    <button type="submit" class="btn btn-primary">Guardar</button>
+  <form>
+     <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success" style="margin-left:5% ;margin-rigth:5%;">
+     </form>
+</form>
 </body>
