@@ -58,14 +58,12 @@
           aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.Registro" class="text-danger"></span>
       </div>
-      
       <div class="col">
         <span asp-for="SignosVitales.FrecuenciaCardiaca" class="input-group-text" id="Ciudad">Frecuencia Cardiaca</span>
         <input type="text" asp-for="SignosVitales.FrecuenciaCardiaca" class="form-control"
           aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.FrecuenciaCardiaca" class="text-danger"></span>
       </div>
-
       <div class="col">
         <span asp-for="SignosVitales.FrecuenciaRespiratoria" class="input-group-text" id="Ciudad">Frecuencia
           Respiratoria</span>
@@ -73,59 +71,56 @@
           aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.FrecuenciaRespiratoria" class="text-danger"></span>
       </div>
-
       <div class="col">
         <span asp-for="SignosVitales.Glicemias" class="input-group-text" id="Ciudad">Glicemias</span>
         <input type="text" asp-for="SignosVitales.Glicemias" class="form-control" aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.Glicemias" class="text-danger"></span>
       </div>
-
       <div class="col">
         <span asp-for="SignosVitales.Oximetria" class="input-group-text" id="Ciudad">Oximetria</span>
         <input type="text" asp-for="SignosVitales.Oximetria" class="form-control" aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.Oximetria" class="text-danger"></span>
       </div>
-
       <div class="col">
         <span asp-for="SignosVitales.PresionArteria" class="input-group-text" id="Ciudad">Presion Arteria</span>
         <input type="text" asp-for="SignosVitales.PresionArteria" class="form-control" aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.PresionArteria" class="text-danger"></span>
       </div>
-      
       <div class="col">
         <span asp-for="SignosVitales.Temperatura" class="input-group-text" id="Ciudad">Temperatura</span>
         <input type="text" asp-for="SignosVitales.Temperatura" class="form-control" aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.Temperatura" class="text-danger"></span>
       </div>
-      
+
       <div class="col">
-        <br><span asp-for="SignosVitales.PacienteId" class="input-group-text" id="PacienteId">Id del paciente</span>
+        <br><span asp-for="SignosVitales.PacienteId" class="input-group-text" id="PacienteId">Paciente</span>
         <input type="number" value="@Model.Paciente.Id" asp-for="SignosVitales.PacienteId" class="form-control"
           aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.PacienteId" class="text-danger"></span>
       </div>
-      
+
+
+
       <div class="col">
         <br><span class="input-group-text" id="Fecha">Fecha</span>
         <input type="date" asp-for="SignosVitales.Fecha" class="form-control" aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-default">
         <span asp-validation-for="SignosVitales.Fecha" class="text-danger"></span>
       </div>
-      <br>
-     <div style="text-align: center;">
-     <br><button type="submit" class="btn btn-primary">Guardar</button>
+
+      <div style="text-align: center;">
+        <br><button type="submit" class="btn btn-primary">Asignar</button>
       </div>
-      <br>
+
       <div>
-          <form><br>
-        <INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-2);" class="btn btn-outline-success"
-          style="margin-left:47%; margin-rigth:50%;" id="volver">
-      </form>
-      </div>      
+        <br><INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success"
+          style="margin-left:47% ;margin-rigth:49%;">
+    
     </div>
   </form>
+
 </body>

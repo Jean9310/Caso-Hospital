@@ -17,5 +17,7 @@ namespace Hospitalizacion.App.Persistencia
         Enfermero UpdateEnfermero(Enfermero enfermero);
 
         Enfermero GetEnfermeroXP(int id);
+
+        Enfermero GetNombreDocumentoEnfermero(string dato1, string dato2);
     }
 }

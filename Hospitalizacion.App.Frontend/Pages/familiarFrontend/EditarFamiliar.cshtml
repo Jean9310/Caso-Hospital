@@ -32,6 +32,28 @@
     <legend>Informacion</legend>
     <input type="hidden" asp-for="Familiar.Id">
     <div class="mb-3">
+      <label asp-for="Familiar.Nombre" class="form-label">Nombre</label>
+      <input type="text" asp-for="Familiar.Nombre" id="Nombre" class="form-control" placeholder="Nombre">
+      <span asp-validation-for="Familiar.Nombre" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+      <label asp-for="Familiar.Apellido" class="form-label">Apellido</label>
+      <input type="text" asp-for="Familiar.Apellido" id="Apellido" class="form-control" placeholder="Apellido">
+      <span asp-validation-for="Familiar.Apellido" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+      <label asp-for="Familiar.Telefono" class="form-label">Telefono</label>
+      <input type="text" asp-for="Familiar.Telefono" id="Telefono" class="form-control" placeholder="Telefono">
+      <span asp-validation-for="Familiar.Telefono" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+       <select asp-for="Familiar.Genero" class="form-select" aria-label="Default select example">
+          <option selected>Genero</option>
+          <option value="Femenino">Femenino</option>
+          <option value="Masculino">Masculino</option>
+        </select>
+        <span asp-validation-for="Familiar.Genero" class="form-danger"></span>
+    <div class="mb-3">
       <label asp-for="Familiar.Parentesco" class="form-label">Parentesco</label>
       <input type="text" asp-for="Familiar.Parentesco" id="Parentesco" class="form-control" placeholder="Parentesco">
       <span asp-validation-for="Familiar.Parentesco" class="text-danger"></span>

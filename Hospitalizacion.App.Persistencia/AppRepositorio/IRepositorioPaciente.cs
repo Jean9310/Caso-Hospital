@@ -23,6 +23,9 @@ namespace Hospitalizacion.App.Persistencia
         IEnumerable<Paciente> GetEnfermeroParaPaciente(int idEnfermero);
         IEnumerable<Paciente> GetAuxiliarParaPaciente(int idAuxiliar);
 
+
+        Paciente GetNombreDocumentoPaciente(string dato1, string dato2);
+
         
     }
 }

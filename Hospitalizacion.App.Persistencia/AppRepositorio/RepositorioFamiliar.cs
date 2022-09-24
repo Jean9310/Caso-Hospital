@@ -63,6 +63,10 @@ namespace Hospitalizacion.App.Persistencia
             {
                 FamiliarEncontrado.Parentesco = familiar.Parentesco;
                 FamiliarEncontrado.Correo = familiar.Correo;
+                FamiliarEncontrado.Apellido =familiar.Apellido;
+                FamiliarEncontrado.Genero=familiar.Genero;
+                FamiliarEncontrado.Nombre=familiar.Nombre;
+                FamiliarEncontrado.Telefono=familiar.Telefono;
             
                 this._appContext.SaveChanges();
             }
@@ -70,7 +74,10 @@ namespace Hospitalizacion.App.Persistencia
         }
 
 
-
+        public Familiar GetNombreDocumentoFamiliar(string dato1, string dato2)
+        {
+            return  this._appContext.Familiar.Where( f => f.Nombre == dato1 && f.Telefono== dato2).SingleOrDefault<Familiar>();  
+        }
 
 
 

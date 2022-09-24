@@ -14,7 +14,7 @@ namespace Hospitalizacion.App.Persistencia
 
         IEnumerable<SignosVitales> GetSignosVitalesXPaciente(int idPaciente);
 
-        
+       SignosVitales GetSignosVitales (int idSignosVitales);
 
         
     }

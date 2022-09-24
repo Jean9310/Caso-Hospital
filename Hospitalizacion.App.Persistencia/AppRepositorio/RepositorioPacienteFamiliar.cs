@@ -52,6 +52,36 @@ namespace Hospitalizacion.App.Persistencia
                 .SingleOrDefault<PacienteFamiliar>();
 
         }
+
+
+        public IEnumerable<PacienteFamiliar> GetPacienteFamiliarxP(int idFamiliar)
+        {
+            return this._appContext.PacienteFamiliar.Where(p => p.FamiliarId ==idFamiliar);
+        }
+
+        
+
+        public void DeletePacienteF(int idPacienteFamiliar)
+        {
+          
+            var PacienteFamiliarAEliminar = 
+                this._appContext.PacienteFamiliar
+                    .FirstOrDefault( p => p.Id == idPacienteFamiliar);
+            
+
+            if ( PacienteFamiliarAEliminar != null)
+            {
+                this._appContext.PacienteFamiliar.Remove(PacienteFamiliarAEliminar);
+                this._appContext.SaveChanges();
+            }
+        }
+
+
+          public IEnumerable<PacienteFamiliar> GetAllPacienteF()
+        {
+            
+            return this._appContext.PacienteFamiliar;
+        }
     }
     
 }

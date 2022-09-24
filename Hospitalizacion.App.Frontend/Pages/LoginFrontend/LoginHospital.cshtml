@@ -1,0 +1,72 @@
+﻿@page
+@model Hospitalizacion.App.Frontend.Pages.LoginHospitalModel
+@{
+    ViewData["Title"] = "Login";
+}
+<style>
+    h1 {
+        font-variant: small-caps;
+        color: blue;
+        text-align: center;
+        text-decoration: dotted double;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .fondo {
+        background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);
+    }
+
+    #Nombre,
+    #Password,
+    #tabla {
+        color: black;
+        border-color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    input{ height: min-content;
+    margin-right: 30%;}
+    
+</style>
+
+
+<body class="fondo">
+
+
+    <h1>Digite su Usuario</h1>
+
+
+
+    <form method="POST">
+        <div class="mb-3 row">
+            <label for="UserName" class="col-sm-2 col-form-label" id="Nombre" >nombre</label>
+            <div class="col-sm-10">
+                <input type="text" asp-for="UserName" class="form-control" id="Nombre" placeholder="Ingrese el Nombre de usuario">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label asp-for="Password" class="col-sm-2 col-form-label" id="Password">Password</label>
+            <div class="col-sm-10">
+                <input type="password" asp-for="Password" class="form-control" id="Password" placeholder="Ingrese el numero de telefono">
+            </div>
+        </div>
+        <select class="form-select form-select-sm" asp-for="TipoPersona" aria-label=".form-select-sm example"
+            id="tabla">
+            <option selected >seleccione el tipo de persona</option>
+            <option value="a">Medico</option>
+            <option value="b">Enfermero</option>
+            <option value="c">Paciente</option>
+            <option value="d">Auxiliar</option>
+            <option value="e">Familiar</option>
+        </select><br>
+        <div style="text-align: center;">
+           
+            <button type="submit" class="btn btn-primary">Ingreso</button>
+            @* <button type="button" class="btn btn-outline-primary"><a asp-page="../MedicoFrontend/VerMedico" *@
+                @* asp-route-id="@Model.Medico.Id" style="font-weight:bold ;">Informacion</a></button>  *@
+           
+        </div>
+    </form>
+</body>

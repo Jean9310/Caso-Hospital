@@ -25,7 +25,8 @@ namespace Hospitalizacion.App.Frontend.Pages
         public ActionResult OnGet(int id)
         {
             this.Paciente= _repositorioPaciente.GetPaciente(id);
-            //this.Paciente= _repositorioPaciente.GetPaciente(id);
+            this.SignosVitales=_repositorioSignosVitales.GetSignosVitales(id);
+            
            // SignosVitales.PacienteId = 2042;
            
              return Page();

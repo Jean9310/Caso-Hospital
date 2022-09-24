@@ -1,0 +1,119 @@
+﻿@page
+@model Hospitalizacion.App.Frontend.Pages.PacienteFamiliarAsignarModel
+@{
+    //ViewData["Title"] = "PacienteFamiliar";
+}
+
+<style>
+    h1 {
+        font-variant: small-caps;
+        color: blue;
+        text-align: center;
+        text-decoration: dotted double;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .fondo {
+        background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);
+    }
+
+    #Nombre,
+    #Password,
+    #tabla {
+        color: black;
+        border-color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    input{ height: min-content;
+    margin-right: 30%;}
+    
+</style>
+
+
+<body class="fondo">
+
+
+    <h1>Asignar Paciente a Familiar</h1>
+   @* <h3>@ViewData["Error"]</h3> *@
+
+
+
+    <form method="POST">
+        
+
+
+
+
+        @* <span asp-for="PacienteFamiliar.PacienteId" class="input-group-text" id="Nombre">PacienteId</span>
+        <input type="number" asp-for="PacienteFamiliar.PacienteId" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+
+          <span asp-for="PacienteFamiliar.FamiliarId" class="input-group-text" id="Nombre">FamiliarId</span>
+        <input type="number" asp-for="PacienteFamiliar.FamiliarId" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default"> *@
+        <div class="col">
+          <span class="input-group-text" id="Paciente">Paciente</span>
+           <select asp-for="PacienteFamiliar.PacienteId" class="form-select" aria-label="Default select example">
+            <option selected>Seleccione un Paciente</option>
+
+            @foreach (var paciente in Model.Paci)
+          {
+            <option value="@paciente.Id">@paciente.Nombre @paciente.Apellido</option>
+            
+          } 
+                   
+          </select>
+          <span asp-validation-for="Paciente.Id" class="form-danger"></span>
+       
+        </div>
+
+
+
+       
+        <div class="col">
+          <span class="input-group-text" id="Familiar">Familiar</span>
+            <select asp-for="PacienteFamiliar.FamiliarId" class="form-select" aria-label="Default select example">
+            <option selected>Seleccione un Familiar</option>
+           @foreach (var familiar in Model.Fam)
+          {
+            <option value="@familiar.Id">@familiar.Nombre @familiar.Apellido</option>
+          }                   
+          </select>
+          <span asp-validation-for="Familiar.Id" class="form-danger"></span>
+        </div> 
+
+       
+        <div style="text-align: center;">
+          <br><button type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+       <!--<form>
+            <br><INPUT TYPE="button" VALUE="Regresar" class="btn btn-outline-success" onClick="history.go(-1);"
+                style="margin-left:47% ; margin-rigth:49%;">
+        </form>-->
+    </form>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

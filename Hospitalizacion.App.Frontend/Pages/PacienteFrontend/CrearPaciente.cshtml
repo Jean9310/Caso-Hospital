@@ -119,11 +119,11 @@
         <div class="col">
           <span class="input-group-text" id="Medico">Medico</span>
            <select asp-for="Medico.Id" class="form-select" aria-label="Default select example">
-            <option selected>eleccione a su Medico</option>
+            <option selected>Seleccione un Medico</option>
 
             @foreach (var medico in Model.Medicos)
           {
-            <option value="@medico.Id">@medico.Nombre</option>
+            <option value="@medico.Id">@medico.Nombre @medico.Apellido</option>
             
           } 
                    
@@ -133,10 +133,10 @@
         <div class="col">
           <span class="input-group-text" id="Enfermero">Enfermero</span>
             <select asp-for="Enfermero.Id" class="form-select" aria-label="Default select example">
-            <option selected>seleccione a su Enfermero</option>
+            <option selected>Seleccione un Enfermero</option>
            @foreach (var enfermero in Model.Enfermeros)
           {
-            <option value="@enfermero.Id">@enfermero.Nombre</option>
+            <option value="@enfermero.Id">@enfermero.Nombre @enfermero.Apellido</option>
           }                   
           </select>
           <span asp-validation-for="Enfermero.Id" class="form-danger"></span>
@@ -145,10 +145,10 @@
         <div class="col">
           <span class="input-group-text" id="Auxiliar">Auxiliar</span>
              <select asp-for="Auxiliar.Id" class="form-select" aria-label="Default select example">
-            <option selected>seleccione a su Auxiliar</option>
+            <option selected>Seleccione un Auxiliar</option>
            @foreach (var auxiliar in Model.Auxiliares)
           {
-            <option value="@auxiliar.Id">@auxiliar.Nombre</option>
+            <option value="@auxiliar.Id">@auxiliar.Nombre @auxiliar.Apellido</option>
           }                   
           </select>
           <span asp-validation-for="Auxiliar.Id" class="form-danger"></span>

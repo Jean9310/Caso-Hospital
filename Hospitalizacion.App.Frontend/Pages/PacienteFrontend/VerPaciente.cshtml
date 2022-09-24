@@ -102,12 +102,11 @@
           </div><br>
 
             
-            <button type="button" class="btn btn-outline-info" style="font-weight:bold ;"><a
-                asp-page="../SignosVitalesFrontend/CrearSignosVitales" asp-route-id="@Model.Paciente.Id">Asignacion de signos vitales del Paciente</a></button><br> 
+             
             <br><table class="table">
               <thead>
                 <tr>
-                      @* <th scope="col">Id</th> *@
+                  <th scope="col">Id</th> 
                   <th scope="col">registro</th>
                   <th scope="col">Frecuencia cardiaca</th>
                   <th scope="col">Frecuencia Respiratoria</th>
@@ -115,7 +114,9 @@
                   <th scope="col">Oximetria</th>
                   <th scope="col">PresionArteria</th>
                   <th scope="col">Temperatura</th>
-                  <th scope="col" rowspan="3">Fecha</th>
+                  <th scope="col">Fecha</th>
+                  <th scope="col" colspan="1">Historias</th>
+                  
 
                       @* <th scope="col" colspan="3">Opciones</th> *@
                 </tr>
@@ -138,10 +139,8 @@
                     <td>@signosV.Fecha</td> 
 
 
-                        @* <td><a asp-page="./CrearSignosVitales" asp-route-id="@Paciente.Id" class="btn
-                          btn-outline-primary">nuevos signos</a></td> *@
-                        @* <td><a asp-page="./AsignarPersonal" asp-route-id="@paciente.Id" class="btn
-                          btn-outline-primary">Asignar Personal</a></td> *@
+                       <td><a asp-page="../HistoriaClinicaFrontend/VerHistoriaClinica" asp-route-id="@signosV.Id" class="btn
+                          btn-outline-primary">Ver Historia</a></td> 
                   </tr>
 
                     }

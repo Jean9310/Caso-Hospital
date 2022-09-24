@@ -17,7 +17,7 @@
     .fondo {
         background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);
     }
-    .table{color: black;font-weight: bold;}
+    .table{font-weight: bold; text-transform: uppercase;}
 </style>
 
 <body class="fondo">
@@ -64,11 +64,11 @@
                 style="font-weight:bold  ; ">Crear personal nuevo</a></button>
     </div>
     <form method="post">
-        <table class="table table-blue table-striped">
+        <table class="table table-blue table-striped" class="table">
             <thead>
 
                 <th scope="col" hidden>Id</th>
-                <th scope="col">Documento</th>
+                @* <th scope="col">Documento</th> *@
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
                 <th scope="col">Telefono</th>
@@ -84,7 +84,7 @@
                     <tr>
                         <th scope="row" hidden>@enfermero.Id</th>
 
-                        <td>@enfermero.Documento</td>
+                        @* <td>@enfermero.Documento</td> *@
                         <td>@enfermero.Nombre</td>
                         <td>@enfermero.Apellido</td>
                         <td>@enfermero.Telefono</td>

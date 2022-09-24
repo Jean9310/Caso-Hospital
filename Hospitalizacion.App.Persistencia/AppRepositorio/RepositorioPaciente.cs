@@ -101,6 +101,13 @@ namespace Hospitalizacion.App.Persistencia
         {
             return this._appContext.Paciente.Where(p => p.AuxiliarId ==idAuxiliar);
         }
+
+
+
+        public Paciente GetNombreDocumentoPaciente(string dato1, string dato2)
+        {
+            return  this._appContext.Paciente.Where( p => p.Nombre == dato1 && p.Telefono== dato2).SingleOrDefault<Paciente>();  
+        }
      
 
 

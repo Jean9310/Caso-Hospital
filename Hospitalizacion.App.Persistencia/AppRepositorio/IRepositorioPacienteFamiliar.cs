@@ -13,7 +13,11 @@ namespace Hospitalizacion.App.Persistencia
 
         PacienteFamiliar GetPacienteFamiliar(int idFamiliar, int idPaciente);
       
-   
+        IEnumerable<PacienteFamiliar> GetPacienteFamiliarxP(int idFamiliar);
+
+        IEnumerable<PacienteFamiliar> GetAllPacienteF();
+
+        void DeletePacienteF(int id);
     }
     
 }

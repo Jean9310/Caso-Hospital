@@ -7,6 +7,10 @@ namespace Hospitalizacion.App.Frontend.Pages
 {
     public class VerEnfermeroModel : PageModel
     {
+
+        
+
+
         private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new Hospitalizacion.App.Persistencia.AppContext());
         [BindProperty]
         
@@ -18,6 +22,7 @@ namespace Hospitalizacion.App.Frontend.Pages
         public VerEnfermeroModel(){}
         public ActionResult OnGet(int id)
         {
+            
             this.Pac=_repositorioPaciente.GetEnfermeroParaPaciente(id);
             this.Enfermero=_repositorioEnfermero.GetEnfermero(id);
             return Page();

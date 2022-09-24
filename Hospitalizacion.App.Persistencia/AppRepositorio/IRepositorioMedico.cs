@@ -21,5 +21,7 @@ namespace Hospitalizacion.App.Persistencia
         IEnumerable<Paciente> GetOacienteParaMedico(int idMedico);
 
         Medico GetMedicoXP(int id);
+
+        Medico GetNombreDocumento(string dato1, string dato2);
     }
 }

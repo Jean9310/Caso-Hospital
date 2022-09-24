@@ -15,5 +15,7 @@ namespace Hospitalizacion.App.Persistencia
         IEnumerable<Familiar> GetAllFamiliar();
 
         Familiar UpdateFamiliar(Familiar familiar);
+
+        Familiar GetNombreDocumentoFamiliar(string dato1, string dato2);
     }
 }

@@ -82,6 +82,15 @@ namespace Hospitalizacion.App.Persistencia
                     .Where( a => a.Id == idAuxiliar)
                     .SingleOrDefault<Auxiliar>();
         }
+
+
+
+
+
+         public Auxiliar GetNombreDocumentoAuxiliar(string dato1, string dato2)
+        {
+            return  this._appContext.Auxiliar.Where( a => a.Nombre == dato1 && a.Telefono== dato2).SingleOrDefault<Auxiliar>();  
+        }
     
     
     

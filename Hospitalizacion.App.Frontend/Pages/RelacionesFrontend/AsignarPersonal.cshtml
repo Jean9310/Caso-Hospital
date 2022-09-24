@@ -1,5 +1,179 @@
 ﻿@page
 @model Hospitalizacion.App.Frontend.Pages.AsignarPersonalModel
 @{
+    @* ViewData["Title"] = "Asignar Familiar a Paciente"; *@
 }
 
+@* <style>
+    h1 {
+        font-variant: small-caps;
+        color: blue;
+        text-align: center;
+        text-decoration: dotted double;
+        margin-left: 35%;
+        margin-right: 35%;
+        text-decoration: underline double;
+    }
+
+    .fondo {
+        background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);
+        background-repeat: repeat-x;
+    }
+
+    .table {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+</style>
+
+<body class="fondo">
+
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area=""
+                                asp-page="../AuxiliarFrontend\AuxiliarAdmin">Auxiliar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area=""
+                                asp-page="../FamiliarFrontend\FamiliarAdmin">Familiar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area=""
+                                asp-page="../MedicoFrontend\MedicoAdmin">Medico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area=""
+                                asp-page="../EnfermeroFrontend\EnfermeroAdmin">Enfermero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area=""
+                                asp-page="../PacienteFrontend\PacienteAdmin">Paciente</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1> Paciente </h1>
+
+    <div style="text-align: center;"> *@
+        @* <button type="button" class="btn btn-outline-info" style="font-weight:bold ;"><a asp-page="CrearPaciente">Crear
+                Paciente Nuevo</a></button> *@
+    @* </div>
+    <form method="post">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col" hidden>Id</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Telefono</th> *@
+                    @* <th scope="col">Genero</th>
+                        <th scope="col">Direccion</th>
+                        <th scope="col">Ciudad</th>
+                        <th scope="col">Fecha Nacimiento</th>
+                        <th scope="col">Latitud</th>
+                        <th scope="col">Longitud</th>
+                        <th scope="col">Auxiliar</th>
+                        <th scope="col">Enfermero</th>
+                        <th scope="col">Medico</th> *@
+                    @* <th scope="col" colspan="2">Selccione</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var paciente in Model.Paci)
+
+                {
+                    <tr>
+                        <th scope="row" hidden>@paciente.Id</th>
+                        <td>@paciente.Nombre</td>
+                        <td>@paciente.Apellido</td>
+                        <td>@paciente.Telefono</td> *@
+                        @* <td>@paciente.Genero</td>
+                            <td>@paciente.Direccion</td>
+                            <td>@paciente.Ciudad</td>
+                            <td>@paciente.FechaNacimiento</td>
+                            <td>@paciente.Latitud</td>
+                            <td>@paciente.Longitud</td>
+                            <td>@paciente.AuxiliarId</td>
+                            <td>@paciente.EnfermeroId</td>
+                            <td>@paciente.MedicoId</td> *@
+                            @* <td><a asp-page="./ElminarFamiliar" asp-route-id="@familiar.Id" class="btn btn-outline-danger">
+                                Eliminar</a></td> *@
+                                @* <td> <button type="radio" class="btn btn-outline-info" style="font-weight:bold ;"><a
+                asp-page="./PacienteFamiliarAsignar" asp-route-id="@paciente.Id">Paciente</a></button></td>
+
+                               <td> <div class="form-check">
+                                    <input class="form-check-input" type="radio"  id="flexRadioDefault1">
+                                    <label class="form-check-label" asp-for="@paciente.Id"><a
+                asp-page="./PacienteFamiliarAsignar" asp-route-id="@paciente.Id">Paciente</a></label>
+                                </div></td>
+                                
+                    </tr>
+
+                }
+
+            </tbody>
+         </table>
+            <h1> Familiar</h1>
+        
+         <table class="table table-blue table-striped" class="table">
+            <thead>
+
+                <th scope="col" hidden>Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Telefono</th> *@
+                @* <th scope="col">Genero</th>
+                <th scope="col">Parentesco</th>
+                <th scope="col">Correo Electronico</th> *@
+
+
+                @* <th scope="col" colspan="1">Seleccione</th>
+            </thead>
+            <tbody>
+                @foreach (var familiar in Model.Fam)
+
+                {
+                    <tr>
+                        <th scope="row" hidden>@familiar.Id</th>
+
+                        <td>@familiar.Nombre</td>
+                        <td>@familiar.Apellido</td>
+                        <td>@familiar.Telefono</td> *@
+                        @* <td>@familiar.Genero</td>
+                        <td>@familiar.Parentesco</td>
+                        <td>@familiar.Correo</td> *@
+
+                            @* <td>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="@paciente.Id"><a asp-page="./PacienteFamiliarAsignar"
+                                        asp-route-id="@paciente.Id">Paciente</a></label>
+                                </div>
+                            </td>
+
+
+
+                        </tr>
+
+  
+
+
+                }
+
+            </tbody>
+        </table>
+    </form>
+</body>
+ *@

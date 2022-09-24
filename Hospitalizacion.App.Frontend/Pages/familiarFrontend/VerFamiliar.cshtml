@@ -18,24 +18,82 @@
    #etiqueta{font-weight: bold;}
 </style>
 <body class="logo">
-<h1>Informacion del Auxiliar</h1>
+<h1>Informacion del familiar</h1>
 
 <form method="POST">
-    <div class="card" style="width: 18rem;">
-  <img src="https://cdn-icons-png.flaticon.com/128/3021/3021797.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">
-        <label for="familiar">@Model.Familiar.Parentesco</label>
-    </h5>
-    <p class="card-text"></p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item"><span id="etiqueta">Email : </span>@Model.Familiar.Correo</li>
-  
-  </ul>
-  <div class="card-body">
-    
-  </div>
+
+      <div class="card" style="width: 18rem;">
+      <img src="https://cdn-icons-png.flaticon.com/128/3567/3567474.png" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">
+          <label for="auxiliar">@Model.Familiar.Nombre @Model.Familiar.Apellido</label>
+        </h5>
+        <p class="card-text">Una pasión por poner a los pacientes primero: eso siempre es algo que buscas en un centro
+          de salud.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><span id="etiqueta">Parentesco : </span>@Model.Familiar.Parentesco</li>
+        <li class="list-group-item"><span id="etiqueta">Contacto : </span>@Model.Familiar.Telefono</li>
+        <li class="list-group-item"><span id="etiqueta">Genero : </span>@Model.Familiar.Genero</li>
+        <li class="list-group-item"><span id="etiqueta">Correo Electronico : </span>@Model.Familiar.Correo</li>
+       
+      </ul>
+    </div><br>
+
+
+
+
+
+  <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col" hidden>Id</th>
+                    <th scope="col">paciente</th>
+                    @* <th scope="col">Apellido</th>
+                    <th scope="col">Telefono</th>
+                    <th scope="col">Genero</th>
+                        <th scope="col">Direccion</th>
+                        <th scope="col">Ciudad</th>
+                        <th scope="col">Fecha Nacimiento</th>
+                        <th scope="col">Latitud</th>
+                        <th scope="col">Longitud</th>
+                        <th scope="col">Auxiliar</th>
+                        <th scope="col">Enfermero</th>
+                        <th scope="col">Medico</th>  *@
+                    <th scope="col" colspan="2">Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pacienteFamiliar in Model.pf)
+
+
+
+                {
+                    <tr>
+                        <th scope="row" hidden>@pacienteFamiliar.Id</th>
+                        <td>@pacienteFamiliar.PacienteId</td>
+                        @* <td>@paciente.Apellido</td>
+                        <td>@paciente.Telefono</td>
+                        <td>@paciente.Genero</td>
+                            <td>@paciente.Direccion</td>
+                            <td>@paciente.Ciudad</td>
+                            <td>@paciente.FechaNacimiento</td>
+                            <td>@paciente.Latitud</td>
+                            <td>@paciente.Longitud</td>
+                            <td>@paciente.AuxiliarId</td>
+                            <td>@paciente.EnfermeroId</td>
+                            <td>@paciente.MedicoId</td>  *@
+
+                            @* <td><button type="button" class="btn btn-outline-primary"><a asp-page="../PacienteFrontend/VerPacientePersonal" asp-route-id="@paciente.Id" style="font-weight:bold ;">Informacion</a></button></td> *@
+                             @* <td><button type="button" class="btn btn-outline-primary"><a asp-page="../SignosVitalesFrontend/CrearSignosVitales"  asp-route-id="@paciente.Id" style="font-weight:bold ;">Crear Signos Vitales</a></button></td> *@
+                    </tr>
+
+
+
+                }
+            </tbody>
+        </table>
+
 </div><br>
 <form>
      <INPUT TYPE="button" VALUE="Regresar"  class="btn btn-outline-success" onClick="history.go(-1);" style="margin-left:15% ; margin-rigth:15%;">

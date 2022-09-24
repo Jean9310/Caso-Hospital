@@ -8,7 +8,7 @@
     sans-serif;text-align: center;margin-left: 35%;margin-right: 35%;}
     div{color: blue;font-variant: small-caps;}
     .fondo{background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);}
-    .table{color: black;font-weight: bold;}
+    .table{font-weight: bold;text-transform: uppercase;}
 </style>
 <body class="fondo">
     
@@ -51,6 +51,8 @@
 <h1> Administrador de Auxiliares</h1>
 <div style="text-align: center;">
     <button type="button" class="btn btn-outline-info"><a asp-page = "CrearAuxiliar" style="font-weight:bold  ;">Crear Auxiliar</a></button>
+    <button type="button" class="btn btn-outline-info"><a asp-page = "../RelacionesFrontend/PacienteFamiliarAsignar" style="font-weight:bold  ;">Asignar paciente a Familiar</a></button>
+    <button type="button" class="btn btn-outline-info"><a asp-page = "../RelacionesFrontend/PacienteFamiliarEliminar" style="font-weight:bold  ;">Eliminar paciente a Familiar</a></button>
 </div>
 <div>
     <br>

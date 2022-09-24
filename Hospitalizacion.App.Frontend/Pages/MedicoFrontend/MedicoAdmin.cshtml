@@ -6,7 +6,7 @@
 <style>
     h1{font-variant: small-caps;color: blue;text-align: center;text-decoration: dotted double; margin-left: 35%;margin-right: 35%;}
     .fondo{background-image: url(https://img.freepik.com/vector-premium/fondo-concepto-medicina-ciencia_41814-21.jpg?w=2000);}
-    .table{color: black;font-weight: bold;}
+    .table{font-weight: bold; text-transform: uppercase;}
 </style>
 <body class="fondo">
     
@@ -58,8 +58,9 @@
      <thead>
         <tr>
             @* <th scope="col" hidden>Id</th>
-            <th scope="col">Especialidad</th>
-            <th scope="col">Codigo</th> *@
+            <th scope="col">Codigo</th>
+            *@
+             <th scope="col">Especialidad</th>
             <th scope="col">Nombre</th>
             <th scope="col">Apellido</th>
             <th scope="col">Telefono</th>
@@ -74,9 +75,9 @@
             {
                 <tr>
                     <th scope="row" hidden>@medico.Id</th>
-@*                     
+                    
                     <td>@medico.Especialidad</td>
-                    <td>@medico.Codigo</td> *@
+                    
                     <td>@medico.Nombre</td>
                     <td>@medico.Apellido</td>
                     <td>@medico.Telefono</td>

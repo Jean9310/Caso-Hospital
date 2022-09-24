@@ -1,0 +1,93 @@
+﻿@page
+@model Hospitalizacion.App.Frontend.Pages.CrearHistoriaClinicaFrontendnModel
+@{
+  ViewData["Title"] = "Historia clinica";
+}
+
+
+<style>
+  h1,
+  legend {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed double;
+    text-transform: uppercase;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 1.5 em;
+  }
+
+  .logo {
+    background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
+  }
+
+  #Nombre,
+  #Apellido,
+  #Telefono,
+  #Ciudad,
+  #Direccion,
+  #Latitud,
+  #Longitud,
+  #Fecha,
+  #Medico,
+  #Enfermero,
+  #Auxiliar {
+    border-color: blue;
+    border: inset;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  input {
+    border-color: black;
+  }
+</style>
+
+<body class="logo">
+
+  <h1>Crear Historia clinica</h1>
+  <h3>@ViewData["Error"]</h3>
+
+  <form method="POST">
+
+    <h4>Informacion Especifica</h4>
+    <div class="row">
+      <div class="col">
+        <span asp-for="HistoriaClinica.Antecedentes" class="input-group-text" id="Direccion">Antecedentes</span>
+        <input type="text" asp-for="HistoriaClinica.Antecedentes" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="HistoriaClinica.Antecedentes" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="HistoriaClinica.Estado_Actual" class="input-group-text" id="Ciudad">Estado Actual</span>
+        <input type="text" asp-for="HistoriaClinica.Estado_Actual" class="form-control"
+          aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="HistoriaClinica.Estado_Actual" class="text-danger"></span>
+      </div>
+      <div class="col">
+        <span asp-for="HistoriaClinica.SignosVitalesId" class="input-group-text" id="Ciudad">Signos Vitales Id</span>
+        <input type="number" value="@Model.SignosVitales.Id" asp-for="HistoriaClinica.SignosVitalesId"
+          class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="HistoriaClinica.SignosVitalesId" class="text-danger"></span>
+      </div>
+
+      <div class="col">
+        <span class="input-group-text" id="Fecha">Fecha</span>
+        <input type="date" asp-for="HistoriaClinica.Fecha" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+        <span asp-validation-for="HistoriaClinica.Fecha" class="text-danger"></span>
+      </div>
+
+
+      <div style="text-align: center;">
+        <br><button type="submit" class="btn btn-primary">Guardar</button>
+      </div><br>
+      <form>
+        <div>
+          <br><INPUT TYPE="button" VALUE="Retornar" onClick="history.go(-1);" class="btn btn-outline-success"
+            style="margin-left:47% ;margin-rigth:50%;">
+        </div>
+      </form>
+  </form>
+</body>

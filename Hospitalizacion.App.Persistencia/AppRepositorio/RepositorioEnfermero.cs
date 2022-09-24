@@ -83,5 +83,12 @@ namespace Hospitalizacion.App.Persistencia
                     .Where( e => e.Id == idEnfermero)
                     .SingleOrDefault<Enfermero>();
         }
+
+
+
+        public Enfermero GetNombreDocumentoEnfermero(string dato1, string dato2)
+        {
+             return  this._appContext.Enfermero.Where( e => e.Nombre == dato1 && e.Telefono== dato2).SingleOrDefault<Enfermero>();  
+        }
     }
 }

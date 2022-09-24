@@ -80,7 +80,7 @@
             <th scope="col">Auxiliar</th>
             <th scope="col">Enfermero</th>
             <th scope="col">Medico</th> *@
-          <th scope="col" colspan="3">Opciones</th>
+          <th scope="col" colspan="1">Opciones</th>
         </tr>
       </thead>
       <tbody>
@@ -106,8 +106,8 @@
               <td>@paciente.EnfermeroId</td>
               <td>@paciente.MedicoId</td> *@
 
-            <td><button type="button" class="btn btn-outline-primary"><a asp-page="../PacienteFrontend/VerPaciente" asp-route-id="@paciente.Id" style="font-weight:bold ;">Carnet Representativo</a></button></td>
-
+            <td><button type="button" class="btn btn-outline-primary"><a asp-page="../PacienteFrontend/VerPacientePersonal" asp-route-id="@paciente.Id" style="font-weight:bold ;">Informacion</a></button></td>
+            @* <td><button type="button" class="btn btn-outline-primary"><a asp-page="../SignosVitalesFrontend/CrearSignosVitales"  asp-route-id="@paciente.Id" style="font-weight:bold ;">Crear Signos Vitales</a></button></td> *@
           </tr>
 
 

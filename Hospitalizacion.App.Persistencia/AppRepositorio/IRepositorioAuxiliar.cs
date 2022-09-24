@@ -18,6 +18,8 @@ namespace Hospitalizacion.App.Persistencia
   
   
         Auxiliar GetAuxiliarXP(int id);
+
+        Auxiliar GetNombreDocumentoAuxiliar(string dato1, string dato2);
   
   
     }

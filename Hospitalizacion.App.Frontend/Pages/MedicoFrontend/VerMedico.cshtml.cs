@@ -19,11 +19,12 @@ namespace Hospitalizacion.App.Frontend.Pages
         public Medico Medico{get; set;}
 
         public VerMedicoModel(){}
-        public ActionResult OnGet(int id)
+       public ActionResult OnGet(int id)
         {
             this.Pac=_repositorioPaciente.GetMedicoParaPaciente(id);
             this.Medico=_repositorioMedico.GetMedico(id);
             return Page();
         }
+        
     }
 }

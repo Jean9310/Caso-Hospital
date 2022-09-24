@@ -1,8 +1,31 @@
 ﻿@page
 @model PrivacyModel
 @{
+
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<style>
+    h1,
+    legend {
+        color: blue;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-style: dashed double;
+        text-transform: uppercase;
+        margin-left: 35%;
+        margin-right: 35%;
+        font-size: 1.5 em;
+    }
+
+    .logo {
+        background-image: url(https://img.freepik.com/foto-gratis/blur-hospital_1203-7957.jpg?w=2000);
+    }
+    p{font-weight: bold;color: black;font-size: 5em;}
+</style>
+
+<body class="logo">
+    <h1>@ViewData["Title"]</h1>
+
+    <p>Utilice esta página para detallar la política de privacidad de su sitio.</p>
+</body>

@@ -28,6 +28,14 @@ namespace Hospitalizacion.App.Persistencia
             return this._appContext.SignosVitales.Where(s => s.PacienteId ==idPaciente);
         }
        
+
+         public SignosVitales GetSignosVitales(int idSignosVitales)
+        {
+            return  
+                this._appContext.SignosVitales
+                    .Where( s => s.Id == idSignosVitales)
+                    .SingleOrDefault<SignosVitales>();
+        }
     
 
 

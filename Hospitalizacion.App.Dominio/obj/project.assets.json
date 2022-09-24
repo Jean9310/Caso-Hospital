@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\JHON\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Downloads\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
       "projectName": "Hospitalizacion.App.Dominio",
-      "projectPath": "C:\\Users\\user\\Downloads\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Downloads\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\Hospitalizacion.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\JHON\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JHON\\Descargas\\Hospitalizacion.App\\Hospitalizacion.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\JHON\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
